@@ -117,13 +117,14 @@ article {
 
 aside {
   flex: 1;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 aside li {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 footer {
   margin-top: 10px;
+  text-align: center;
 }
