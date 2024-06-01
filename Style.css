@@ -10,8 +10,6 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: var(--bg);
   color: var(--text);
-  width: 90%;
-  margin: 0 auto;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,9 +25,16 @@ html, body {
 }
 
 html {
+  font-size: 10px;
   background-color: var(--bg);
   color: var(--text);
 
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  
 }
 
 /* || typography */
@@ -62,7 +67,7 @@ p, li, span {
   line-height: 1.5;
 }
 
-/* || header layout 
+/* || header layout */
 
 nav, article, aside, footer {
   padding: 1%;
@@ -118,7 +123,7 @@ input[type="submit"] {
   background: #333;
   border: 0;
   color: white;
-}*/
+}
 
 /* || main layout */
 
