@@ -2,18 +2,18 @@
 
 :root {
   --text: #0d1117;
-  --bg: #dddddd;
+  --bg: ##f3eeea;
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   background-color: var(--bg);
   color: var(--text);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #dddddd;
+    --text: #f3eeea;
     --bg: #0d1117;
   }
 }
@@ -39,7 +39,6 @@ body {
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Segoe UI', sans-serif;
   color: var(--text);
 }
 
