@@ -153,20 +153,32 @@ a:link {
   text-decoration: none;
 }
 
-a:visited {
-  color: #2e77f8;
-  background-color: transparent;
-  text-decoration: none;
+/* espacement */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
 }
 
-.column {
-  float: left;
-  width: 50%;
+thead th:nth-child(1) {
+  width: 30%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
 }
