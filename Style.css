@@ -19,7 +19,7 @@ body {
   }
 }
 
-html, body {
+html, body, th {
   margin: 0;
   padding: 0;
 }
@@ -62,7 +62,22 @@ h3 {
   font-size: 2.2rem;
 }
 
-p, li, span, thead, th {
+p, li, span, th {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+thead {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+th {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+td {
   font-size: 1.6rem;
   line-height: 1.5;
 }
@@ -135,6 +150,7 @@ article {
   flex: 4;
 }
 
+/* || main layout 
 aside {
   flex: 1;
   margin-left: 5px;
@@ -142,7 +158,7 @@ aside {
 
 aside li {
   padding-bottom: 5px;
-}
+}*/
 
 footer {
   text-align: center;
@@ -152,17 +168,6 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
-a:visited {
-  color: #2e77f8;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:link {
-  color: #2e77f8;
-  background-color: transparent;
-  text-decoration: none;
-}
 
 a:visited {
   color: #2e77f8;
@@ -170,4 +175,8 @@ a:visited {
   text-decoration: none;
 }
 
-
+table.center {
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+}
