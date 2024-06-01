@@ -162,7 +162,7 @@ a:visited {
 table {
   border-collapse: collapse;
   font-size: 1.6rem;
-  line-height: 1.5;
+
 }
 
 caption {
@@ -173,6 +173,7 @@ caption {
 
 th,
 td {
+
   padding: 8px 10px;
 }
 
@@ -188,3 +189,4 @@ tfoot th {
 tfoot td {
   font-weight: bold;
 }
+
