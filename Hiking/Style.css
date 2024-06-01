@@ -136,7 +136,7 @@ article {
 }
 
 aside {
-  flex: content;
+  flex: 1;
   margin-left: 5px;
 }
 
