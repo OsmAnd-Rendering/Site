@@ -1,8 +1,9 @@
 /* || General setup */
 
 :root {
+  color-scheme: light dark; /* both supported */
   --text: #0d1117;
-  --bg: ##f3eeea;
+  --bg: #f3eeea;
 }
 
 body {
