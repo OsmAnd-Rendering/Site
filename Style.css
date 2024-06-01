@@ -1,5 +1,24 @@
 /* || General setup */
 
+:root {
+  color-scheme: light dark; /* both supported */
+  --text: #0d1117;
+  --bg: #f3eeea;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #f3eeea;
+    --bg: #0d1117;
+  }
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -7,24 +26,25 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color:  #dddddd ;
+  background-color: var(--bg);
+  color: var(--text);
+
 }
 
 body {
   width: 90%;
   margin: 0 auto;
+  
 }
 
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Segoe UI', sans-serif;
-  color: #2a2a2a;
+  color: var(--text);
 }
 
 p, input, li, span {
   font-family: 'Segoe UI', sans-serif;
-  color: #2a2a2a;
 }
 
 h1 {
@@ -126,4 +146,15 @@ aside li {
 
 footer {
   text-align: center;
+}
+a:link {
+  color: #2e77f8;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2e77f8;
+  background-color: transparent;
+  text-decoration: none;
 }
