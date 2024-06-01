@@ -67,6 +67,11 @@ p, li, span {
   line-height: 1.5;
 }
 
+td {
+  font-size: 1.6rem;
+  line-height: 1.5!important;
+}
+
 /* || header layout */
 
 nav, article, aside, footer {
