@@ -120,6 +120,151 @@
         <li><a href="https://github.com/OsmAnd-Rendering/Hiking/wiki/FR%E2%80%94Fran%C3%A7ais-Am%C3%A9liorations-du-style-par-rapport-%C3%A0-Topo-d%E2%80%99OsmAnd">Améliorations du style</a><br></li>
         <li><a href="https://github.com/OsmAnd-Rendering/Hiking/wiki/FR%E2%80%94Fran%C3%A7ais-L%C3%A9gende">Légende</a><br></li>
       </ul>
+     
+
+    <h3 id="en-bref">Améliorations du style</h3>
+    <p>Ce qui a changé:</p>
+    <ul>
+    <li>Sentiers et chemins/piste de manière simplifiée. </li>
+    <li>Difficulté des sentiers </li>
+    <li>Visibilité des sentiers </li>
+    <li>Ponts</li>
+    <li>POI utiles/intéressant pendant la randonnée sont entourées d&#39;un rond blanc pour les mettre en valeur</li>
+    <li>POI utiles lors d’un passage dans un hameaux/village/ville, sont pré-activé et entourées d&#39;un rond en couleur selon la catégorie</li>
+    <li>Lignes de contours</li>
+    <li>Couleur des occupations du sol et de l’eau</li>
+    <li>Symboles des occupations du sol (Shader) </li>
+    <li>Cols et mountain pass</li>
+    <li>Panneaux d’informations </li>
+    <li>Villes/villages/hameaux </li>
+    <li>Taille des textes </li>
+    <li>Réserves naturelles </li>
+    <li>Lignes de crête, gorges, couloirs, vallées, noms des montagnes</li>
+    <li>Icônes des antennes, tours (bâtiments), éoliennes </li>
+    <li>Couleur opaque pour les itinéraires basés sur les symboles OSMC</li>
+    </ul>
+    <h3 id="nous-avons-ajouté-des-réglages-supplémentaires">Nous avons ajouté des réglages supplémentaires:</h3>
+    <ul>
+    <li><p>Réglages « masquer »:</p>
+    <ul>
+    <li>Symboles des réserves naturelles</li>
+    <li>Couleur des réserves naturelles </li>
+    <li>Visibilité des sentiers </li>
+    <li>POI pré-activé </li>
+    <li>Symboles occupations du sol</li>
+    </ul>
+    </li>
+    <li><p>Réglages lignes de contour</p>
+    <ul>
+    <li>Densité supplémentaire </li>
+    <li>Épaisseur supplémentaire</li>
+    </ul>
+    </li>
+    </ul>
+    <h3 id="nous-avons-désactivécouleur-des-réserves-naturelles">Nous avons désactivé:Couleur des réserves naturelles</h3>
+    <ul>
+    <li><p>Visibilité des sentiers </p>
+    </li>
+    <li><p>POI pré-activé </p>
+    </li>
+    <li><p>Symboles occupations du sol </p>
+    </li>
+    <li><p>Réglages lignes de contour</p>
+    <ul>
+    <li>Densité supplémentaire </li>
+    <li>Épaisseur supplémentaire</li>
+    </ul>
+    </li>
+    </ul>
+    <h3 id="nous-avons-désactivé">Nous avons désactivé:</h3>
+    <ul>
+    <li><p>la qualité des surfaces (Smoothness) </p>
+    </li>
+    <li><p>la qualité des surfaces (Smoothness)</p>
+    </li>
+    </ul>
+
+    <p>Légende:</p>
+
+    <h2>Sentiers</h2>
+    <h3>Sentier (<code>highway=path</code>) :</h3>
+    <table>
+    <thead>
+    <tr>
+    <th>Légende</th>
+    <th>Apparence</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td><strong>Normal</strong><br>- Traits noirs plus large<br>- Forme allongé<br>- Adouci</td>
+    <td><img src="https://github.com/OsmAnd-Rendering/Hiking/blob/main/legende/jpg/Adoucit.jpg" alt /></td>
+    </tr>
+    <tr>
+    <td><strong>Accès « non ou privé »</strong><br>- Traits rouge-marron</td>
+    <td><img src="https://github.com/OsmAnd-Rendering/Hiking/blob/main/legende/jpg/path-access.jpg" alt /></td>
+    </tr>
+    </tbody>
+    </table>
+    <h3>Difficulté et visibilité des sentiers :</h3>
+    <p>Ces deux paramètres se combinent jusqu’à un certain zoom. Au zoom 18 (50 m) la visibilité est désactivée, il ne reste plus que la difficulté qui est affichée.</p>
+    <h4>Couleur selon la difficulté « Échelle CAS » (<code>sac_scale=*</code>) :</h4>
+    <ul>
+    <li>T1 noir discontinu</li>
+    <li>T2 rose discontinu</li>
+    <li>T3 rose continu</li>
+    <li>T4 violet discontinu</li>
+    <li>T5 violet continu</li>
+    <li>T6 violet pointillé allongé</li>
+    </ul>
+    <h4>Visibilité du sentier (<code>trail_visibility=*</code>) :</h4>
+    <ul>
+    <li>Mauvais (<code>bad</code>) : pointillé</li>
+    <li>Horrible (<code>horrible</code>) : pointillés plus espacés</li>
+    <li>Non (<code>no</code>) : pointillé très espacés</li>
+    </ul>
+    <p><img src="https://github.com/OsmAnd-Rendering/Hiking/blob/main/legende/jpg/Légende-FR.jpg" alt /></p>
+    <h2>Chemins, pistes agricoles et forestières type IGN</h2>
+    <h3>Chemin/Chemin agricole/piste forestière (<code>highway=track</code>) :</h3>
+    <h4>Grades 1 et 2 (<code>tracktype=grade1</code>/<code>grade2</code>)</h4>
+    <table>
+    <thead>
+    <tr>
+    <th>Légende</th>
+    <th>Apparence</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td><strong>Normal</strong><br>- Trait blanc plein avec traitillé noir sur les côtés</td>
+    <td><img src="https://github.com/OsmAnd-Rendering/Hiking/blob/main/legende/jpg/tracktype-1-2.jpg" alt /></td>
+    </tr>
+    <tr>
+    <td><strong>Accès « non ou privé »</strong> (<code>acces=private</code>/<code>no</code>)<br>- Traits rouge-marron</td>
+    <td><img src="https://github.com/OsmAnd-Rendering/Hiking/blob/main/legende/jpg/track-1-2-access.jpg" alt /></td>
+    </tr>
+    </tbody>
+    </table>
+    <h4>Grades 3, 4 et 5 (<code>tracktype=grade3</code>/<code>grade4</code>/<code>grade5</code>)</h4>
+    <table>
+    <thead>
+    <tr>
+    <th>Légende</th>
+    <th>Apparence</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td><strong>Normal</strong><br>- Trait noir plein</td>
+    <td><img src="https://github.com/OsmAnd-Rendering/Hiking/blob/main/legende/jpg/tracktype-3-4-5.jpg" alt /></td>
+    </tr>
+    <tr>
+    <td><strong>Accès « non ou privé »</strong> (<code>acces=private</code>/<code>no</code>)<br>- Trait blanc plein avec trait rouge discontinu sur les côtés</td>
+    <td><img src="https://github.com/OsmAnd-Rendering/Hiking/blob/main/legende/jpg/track-3-4-5-access.jpg" alt /></td>
+    </tr>
+    </tbody>
+    </table>
+
 
     </article>
 
