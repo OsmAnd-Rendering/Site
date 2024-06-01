@@ -112,7 +112,7 @@ main {
 }
 
 article {
-  text-align: center;
+  flex: 4;
 }
 
 aside {
