@@ -162,31 +162,22 @@ a:visited {
 table {
   border-collapse: collapse;
   font-size: 1.6rem;
-
 }
 
 caption {
   caption-side: bottom;
   padding: 10px;
-  font-weight: bold;
 }
 
 th,
 td {
-
   padding: 8px 10px;
 }
 
 td:last-of-type {
-  text-align: center;
+  text-align: left;
 }
-
 
 tfoot th {
   text-align: right;
 }
-
-tfoot td {
-  font-weight: bold;
-}
-
