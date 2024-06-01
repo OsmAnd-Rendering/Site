@@ -62,7 +62,7 @@ h3 {
   font-size: 2.2rem;
 }
 
-p, li, span, thead {
+p, li, span, thead, th {
   font-size: 1.6rem;
   line-height: 1.5;
 }
