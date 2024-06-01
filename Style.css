@@ -158,8 +158,17 @@ a:visited {
   background-color: transparent;
   text-decoration: none;
 }
-table.center {
-  width:70%; 
-  margin-left:15%; 
-  margin-right:15%;
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
 }
