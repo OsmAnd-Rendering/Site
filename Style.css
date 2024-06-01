@@ -170,9 +170,4 @@ a:visited {
   text-decoration: none;
 }
 
-a:focus {
-  border-bottom: 1px solid;
-  background: #ff8800;
-}
-
 
