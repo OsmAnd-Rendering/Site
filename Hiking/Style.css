@@ -19,7 +19,7 @@ body {
   }
 }
 
-html, body {
+html, body, th {
   margin: 0;
   padding: 0;
 }
@@ -43,7 +43,7 @@ h1, h2, h3 {
   color: var(--text);
 }
 
-p, input, li, span {
+p, input, li, span, th {
   font-family: 'Segoe UI', sans-serif;
 }
 
@@ -157,4 +157,10 @@ a:visited {
   color: #2e77f8;
   background-color: transparent;
   text-decoration: none;
+}
+
+table.center {
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
 }
