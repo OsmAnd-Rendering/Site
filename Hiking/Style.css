@@ -147,3 +147,14 @@ aside li {
 footer {
   text-align: center;
 }
+a:link {
+  color: #2e77f8;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ff8800;
+  background-color: transparent;
+  text-decoration: none;
+}
