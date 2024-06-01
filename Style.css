@@ -67,7 +67,7 @@ p, li, span, thead, th {
   line-height: 1.5;
 }
 
-/* || header layout */
+/* || header layout 
 
 nav, article, aside, footer {
   padding: 1%;
@@ -123,7 +123,7 @@ input[type="submit"] {
   background: #333;
   border: 0;
   color: white;
-}
+}*/
 
 /* || main layout */
 
