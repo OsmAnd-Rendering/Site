@@ -150,13 +150,15 @@ article {
   flex: 4;
 }
 
-/* || main layout 
+/* || main layout */
 aside {
+  text-align: center;
+  vertical-align: baseline;
   flex: 1;
   margin-left: 5px;
 }
 
-aside li {
+/*aside li {
   padding-bottom: 5px;
 }*/
 
