@@ -155,6 +155,7 @@ aside {
 
 div {
   display: flex;
+  margin-left: 80%;
   justify-content: center;
 }
 
