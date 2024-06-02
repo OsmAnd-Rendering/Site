@@ -150,14 +150,17 @@ article {
   flex: 4;
 }
 
-/* || main layout 
+/* || main layout */
 aside {
+  display: flex;
+  margin-top: 20% ;
+  margin-bottom: 20%;
   flex: 1;
   margin-left: 5px;
 }
 
 aside li {
-  padding-bottom: 5px;
+  padding-bottom: 1em;
 }*/
 
 footer {
