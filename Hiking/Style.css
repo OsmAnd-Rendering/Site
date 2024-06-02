@@ -188,8 +188,8 @@ table.center {
 }
 .center-piece {
   position: fixed;
-  top: 1101px;                         /* 1 */
-  bottom: 50%;
+  top: 20%;                         /* 1 */
+  bottom: 20%;
   left: 90%;
   transform: translate(-50%,50%);    /* 2 */
 }
