@@ -152,9 +152,6 @@ article {
 
 /* || main layout */
 aside {
-  display: flex;
-  margin-top: 20% ;
-  margin-bottom: 20%;
   flex: 1;
   margin-left: 5px;
 }
@@ -182,4 +179,23 @@ table.center {
   width:70%; 
   margin-left:15%; 
   margin-right:15%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-piece {
+  position: fixed;
+  top: 10px;                         /* 1 */
+  bottom: 50%;
+  left: 90%;
+  transform: translate(-50%,50%);    /* 2 */
+}
+.center-piece2 {
+  background-color: steelblue;
+  bottom: 50%;
+  left: 80%;
+  transform: translate(-50%,50%);    /* 2 */
 }
