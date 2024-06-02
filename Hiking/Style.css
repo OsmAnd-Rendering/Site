@@ -182,7 +182,7 @@ table.center {
 }
 
 .container {
-  height: 1200px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: right;
