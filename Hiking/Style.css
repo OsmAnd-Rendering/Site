@@ -142,10 +142,6 @@ input[type="submit"] {
 
 /* || main layout */
 
-main {
-  display: flex;
-}
-
 article {
   flex: 4;
 }
