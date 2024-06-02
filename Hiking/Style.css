@@ -182,20 +182,24 @@ table.center {
 }
 
 .container {
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .center-piece {
-  position: fixed;
-                       /* 1 */
-  bottom: 20%;
-  left: 90%;
+  background-color: green;
+  position: sticky;
+  top: 10px;                         /* 1 */
+  bottom: 50%;
+  left: 50%;
   transform: translate(-50%,50%);    /* 2 */
 }
 .center-piece2 {
   background-color: steelblue;
-  bottom: 50%;
-  left: 80%;
-  transform: translate(-50%,50%);    /* 2 */
+  position: sticky;
+  bottom: 10px;                      /* 3 */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
