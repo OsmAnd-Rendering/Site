@@ -152,7 +152,7 @@ article {
 
 /* || main layout */
 aside {
-  position: absolute;
+  position: fixed;
   text-align: center;
   vertical-align: center;
   align-items: center;
