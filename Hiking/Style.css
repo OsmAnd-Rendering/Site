@@ -142,18 +142,21 @@ input[type="submit"] {
 
 /* || main layout */
 
+main {
+  display: flex;
+}
+
 article {
   flex: 4;
 }
 
-/* || main layout */
+/* || main layout 
 aside {
-  text-align: center;
   flex: 1;
   margin-left: 5px;
 }
 
-/*aside li {
+aside li {
   padding-bottom: 5px;
 }*/
 
