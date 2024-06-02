@@ -191,16 +191,11 @@ div.sticky {
   align-items: center;
 }
 
-
 /* Social */
+
 .center-div
 {
   margin: 0 auto;
   width: 270px;
   height: 100px;
-  /* Pour test 
-  border-radius: 50%;
-  background-color: black;
-  font-size: 10;
-  text-shadow: 2px 2px 10px black;*/
 }
