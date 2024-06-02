@@ -152,12 +152,14 @@ article {
 
 /* || main layout */
 aside {
-  position: fixed;
   text-align: center;
-  vertical-align: center;
-  align-items: center;
   flex: 1;
   margin-left: 5px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
 }
 
 /*aside li {
