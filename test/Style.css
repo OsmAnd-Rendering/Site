@@ -198,3 +198,33 @@ div.sticky {
   margin: 0 auto;
   width: 270px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+#Caracteristiques {
+  height: auto;
+}
+
+#Screenshots {
+  height: auto;
+}
+
+#installation {
+  height: auto;
+}
+
+#Légende {
+  height: auto;
+}
+
+.centered-nav {
+  padding: 1px;
+  margin-top: 70px;
+  position:flex;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
