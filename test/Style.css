@@ -203,7 +203,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#Caracteristiques {
+#Caractéristiques {
   height: auto;
 }
 
@@ -212,6 +212,10 @@ html {
 }
 
 #installation {
+  height: auto;
+}
+
+#Documentation {
   height: auto;
 }
 
