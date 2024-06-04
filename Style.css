@@ -126,6 +126,16 @@ ul{
   padding-left: 3em;
 }
 
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: var(--bg);
+  color: var(--text);
+  padding-bottom: px;
+  align-items: center;
+}
+
 .center-div
 {
   margin: 0 auto;
