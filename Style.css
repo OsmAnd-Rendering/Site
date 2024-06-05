@@ -224,7 +224,6 @@ div.sticky {
 
 .navbar-logo {
   color: var(--navbar-text-color-focus);
-  background-color: var(--navbar-bg-contrast);
   margin-right: 0.5em;
 }
 
