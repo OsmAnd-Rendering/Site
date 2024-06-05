@@ -363,6 +363,30 @@ div.sticky {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
+.navbar-links-lang {
+  list-style-type: none;
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+  background-color: var(--navbar-bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#navbar.opened .navbar-links-lang {
+  padding: 1em;
+  max-height: none;
+}
+
+.detached .navbar-links-lang {
+  left: 0;
+  right: 0;
+  margin: 1.4rem;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
 .navbar-item {
   margin: 0.4em;
   width: 100%;
@@ -370,9 +394,6 @@ div.sticky {
 
 @media screen and (min-width: 800px) {
   .navbar-toggle {
-      display: none;
-  }
-    .navbar-toggle-lang {
       display: none;
   }
   

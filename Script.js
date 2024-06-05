@@ -29,19 +29,19 @@ navbarLinksContainer.addEventListener("click", (clickEvent) => {
 navbarMenu.addEventListener("click", closeMobileNavbar);
 
 const navbar = document.getElementById("navbar");
-const navbarTogglelang = navbar.querySelector(".navbar-toggle-lang");
+const navbarToggle = navbar.querySelector(".navbar-toggle-lang");
 
 function openMobileNavbar() {
   navbar.classList.add("opened");
-  navbarTogglelang.setAttribute("aria-expanded", "true");
+  navbarToggle.setAttribute("aria-expanded", "true");
 }
 
 function closeMobileNavbar() {
   navbar.classList.remove("opened");
-  navbarTogglelang.setAttribute("aria-expanded", "false");
+  navbarToggle.setAttribute("aria-expanded", "false");
 }
 
-navbarTogglelang.addEventListener("click", () => {
+navbarToggle.addEventListener("click", () => {
   if (navbar.classList.contains("opened")) {
     closeMobileNavbar();
   } else {
@@ -49,14 +49,14 @@ navbarTogglelang.addEventListener("click", () => {
   }
 });
 
-const navbarMenulang = navbar.querySelector("#navbar-menu-lang");
-const navbarLinksContainer = navbar.querySelector(".navbar-links");
+const navbarMenu = navbar.querySelector("#navbar-menu-lang");
+const navbarLinksContainer = navbar.querySelector(".navbar-links-lang");
 
 navbarLinksContainer.addEventListener("click", (clickEvent) => {
   clickEvent.stopPropagation();
 });
 
-navbarMenulang.addEventListener("click", closeMobileNavbar);
+navbarMenu.addEventListener("click", closeMobileNavbar);
 
 document
   .getElementById("options")
