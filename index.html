@@ -44,25 +44,34 @@
   <body>
     <!-- Here is our main header that is used across all the pages of our website -->
 
-    <header>
-    </header>
+  <header id="navbar">
+    <nav class="navbar-container container">
+      <a href="/" class="home-link">
+        <div class="navbar-logo"><img src="/icon/logo_OsmAnd-Rendering.svg" width="65"></div>
+      </a>
+      
+      <button type="button" class="navbar-lang" aria-label="Toggle menu" aria-expanded="false" aria-controls="navbar-menu">
+        <img src="/icon/translate.svg" width="20">&nbsp;&nbsp;&nbsp;FR&nbsp;&nbsp;<a class="navbar-link" href="/Hiking/index_ES.html">ES</a><a class="navbar-link" href="/Hiking/index_EN.html">EN</a>
+      </button>
+      
+      <button type="button" class="navbar-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navbar-menu">
+          <span class="icon-bar"></span>
+          <span>Styles</span>
+          <span class="icon-bar"></span>
+      </button>
+      <div id="navbar-menu" class="detached">
+        <ul class="navbar-links">Styles
+          <li class="navbar-item"><a class="navbar-link" href="https://github.com/OsmAnd-Rendering/Motorcycle"><img src="/icon/enduro.svg" width="30" title="home">&nbsp;Enduro</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="https://github.com/OsmAnd-Rendering/Cycling"><img src="/icon/bicycle.svg" width="30" title="Caractéristiques">&nbsp;Cycling</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="https://github.com/OsmAnd-Rendering/Hiking"><img src="/icon/hiking.svg" width="27" title="Screenshots">&nbsp;Hiking</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="https://github.com/OsmAnd-Rendering/Online-Maps"><img src="/icon/online_map.svg" width="32" title="installation">&nbsp;Online-Maps</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="https://github.com/OsmAnd-Rendering/How-to-create-a-rendering"><img src="/icon/notice.svg" width="27" title=" détail">&nbsp;Create a<br> rendering</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+</header>
   
-
-    <!--<nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>-->
-
-      <!-- A Search form is another common non-linear way to navigate through a website. -->
-
-      <!--<form>
-        <input type="search" name="q" placeholder="Search query">
-        <input type="submit" value="Go!">
-      </form>
-    </nav>-->
 
     <!-- Here is our page's main content -->
     <main>
@@ -115,22 +124,30 @@
     <!-- And here is our main footer that is used across all the pages of our website -->
 
     <footer>
+    <br><br>
 
-      <h3 style="text-align:center">Contactez-nous</h3>
-
+    <h3 style="text-align:center">Contactez-nous</h3>
+    <br><br>
       <div class="center-div" style="display: flex; align-items: center; text-align: center">
         <img src="/icon/logo_telegram.svg" width="25">
         <p>&nbsp<a href="https://t.me/OsmandRendering">Telegram</a>&emsp;</p>
         <img src="/icon/logo_matrix.svg" width="25">
-        <p>&nbsp<a href="https://matrix.to/#/#render-osmand:tedomum.net">Matrix</a>&emsp;</p>
+        <p>&nbsp<a href="https://t.me/OsmandRendering">Matrix</a>&emsp;</p>
         <img src="/icon/logo_github.svg" width="25" />
         <p>&nbsp<a href="https://github.com/OsmAnd-Rendering">Github</a></p>
-        </div>  
+      </div>
+
+      <br><br><br><br>
 
 
-      <p style="text-align:center">Content available under GPL-3.0 license</p>
-      
+
+    <p style="text-align:center">Content available under GPL-3.0 license</p>
+    <br><br>
+
+
     </footer>
+    
+    <script src="/Script.js"></script>
 
   </body>
 </html>
