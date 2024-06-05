@@ -363,3 +363,12 @@ div.sticky {
   display: flex;
   flex-direction: column;
 }
+
+.navbar-lang {
+cursor: pointer;
+border: none;
+background-color: transparent;
+display: flex;
+align-items: center;
+justify-content: center;
+}
