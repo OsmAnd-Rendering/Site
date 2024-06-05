@@ -223,10 +223,8 @@ div.sticky {
 }
 
 .navbar-logo {
-  background-color: var(--navbar-text-color-focus);
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  color: var(--navbar-text-color-focus);
+  background-color: var(--navbar-bg-contrast);
   margin-right: 0.5em;
 }
 
@@ -287,6 +285,11 @@ div.sticky {
               right 0.2s ease-in-out;
   opacity: 0;
   visibility: hidden;
+}
+
+#navbar-menu.detached {
+  left: 0;
+  right: 0;
 }
 
 #navbar.opened #navbar-menu {

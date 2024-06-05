@@ -27,13 +27,3 @@ navbarLinksContainer.addEventListener("click", (clickEvent) => {
 });
 
 navbarMenu.addEventListener("click", closeMobileNavbar);
-
-document
-  .getElementById("options")
-  .querySelectorAll("input[name='navtype']")
-  .forEach((option) => {
-    option.addEventListener("change", (e) => {
-      const navType = e.target.id.split("-").join(" ");
-      navbarMenu.classList = navType;
-    });
-  });
