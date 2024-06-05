@@ -371,3 +371,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+
+div, button {
+  font-family: 'Segoe UI', sans-serif;
+  color: #dddddd;
+}
