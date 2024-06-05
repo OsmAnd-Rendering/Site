@@ -146,8 +146,8 @@ div.sticky {
 }
 
 .center-div {
-  margin: 0 auto;
-  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center {
