@@ -145,10 +145,14 @@ div.sticky {
   align-items: center;
 }
 
-.center-div
-{
+.center-div {
   margin: 0 auto;
   width: 270px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 :root {
