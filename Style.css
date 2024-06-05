@@ -305,7 +305,7 @@ div.sticky {
   visibility: hidden;
 }
 
-#navbar-lang {
+#navbar-menu-lang {
   position: fixed;
   top: var(--navbar-height);
   bottom: 0;
@@ -322,7 +322,7 @@ div.sticky {
   right: 0;
 }
 
-#navbar-lang.detached {
+#navbar-menu-lang.detached {
   left: 0;
   right: 0;
 }
@@ -333,7 +333,7 @@ div.sticky {
   visibility: visible;
 }
 
-#navbar.opened #navbar-lang {
+#navbar.opened #navbar-menu-lang {
   background-color: rgba(0, 0, 0, 0.4);
   opacity: 1;
   visibility: visible;
@@ -385,8 +385,8 @@ div.sticky {
       height: 100%;
   }
 
-  #navbar #navbar-lang,
-  #navbar.opened #navbar-lang {
+  #navbar #navbar-menu-lang,
+  #navbar.opened #navbar-menu-lang {
       visibility: visible;
       opacity: 1;
       position: static;

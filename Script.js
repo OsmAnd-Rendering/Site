@@ -49,14 +49,14 @@ navbarTogglelang.addEventListener("click", () => {
   }
 });
 
-const navbarMenu = navbar.querySelector("#navbar-menu");
+const navbarMenulang = navbar.querySelector("#navbar-menu-lang");
 const navbarLinksContainer = navbar.querySelector(".navbar-links");
 
 navbarLinksContainer.addEventListener("click", (clickEvent) => {
   clickEvent.stopPropagation();
 });
 
-navbarMenu.addEventListener("click", closeMobileNavbar);
+navbarMenulang.addEventListener("click", closeMobileNavbar);
 
 document
   .getElementById("options")
