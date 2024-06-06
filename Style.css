@@ -104,11 +104,9 @@ a.div-link:hover {
 /*  Table*/
 
 table {
-  border: 1px solid #6e6e6e;
   margin-left: auto; 
   margin-right: auto;
 }
-
 
 th, td {
   border: 1px solid #6e6e6e;
