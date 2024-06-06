@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <!-- HTML Meta Tags -->
@@ -21,13 +21,16 @@
     <meta name="twitter:description" content="Our independent OsmAnd project team created card styles. Try them and come discuss them!">
     <meta name="twitter:image" content="https://osmand-rendering.github.io/image/logo_OsmAnd-Rendering-OG.png">
 
-<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 
+    <link rel="alternate" href="https://osmand-rendering.github.io/index.html" hreflang="fr" />
+    <link rel="alternate" href="https://osmand-rendering.github.io/index_ES.html" hreflang="es" />
+    <link rel="alternate" href="https://osmand-rendering.github.io/index_EN.html" hreflang="x-default" />
 
     <link data-rh="true" rel="icon" href="/icon/logo_OsmAnd-Rendering.svg">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CSonsie+One" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/Style.css">
-    <meta name="viewport" content="width=device-width,initial-scale=0.85" />
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="color-scheme" content="dark light">
   
@@ -44,26 +47,33 @@
   <body>
     <!-- Here is our main header that is used across all the pages of our website -->
 
-    <header>
+    <header id="navbar">
+      <nav class="navbar-container container">
+        <a href="/" class="home-link">
+          <div class="navbar-logo"><img src="/icon/logo_OsmAnd-Rendering.svg" width="65"></div>
+        </a>
+        
+        <button type="button" class="navbar-lang" aria-label="Toggle menu" aria-expanded="false" aria-controls="navbar-menu">
+          <img src="/icon/translate.svg" width="20" alt="translate" title="translate">&nbsp;&nbsp;&nbsp;FR&nbsp;&nbsp;<a class="navbar-link" href="/index_ES.html">ES</a><a class="navbar-link" href="/index_EN.html">EN</a>
+        </button>
+        
+        <button type="button" class="navbar-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navbar-menu">
+            <span class="icon-bar"></span>
+            <span>Styles</span>
+            <span class="icon-bar"></span>
+        </button>
+        <div id="navbar-menu" class="detached">
+          <ul class="navbar-links">Styles
+            <li class="navbar-item"><a class="navbar-link" href="https://github.com/OsmAnd-Rendering/Motorcycle"><img src="/icon/Enduro.svg" width="35" alt="Enduro" title="Enduro">&nbsp;Enduro</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="https://github.com/OsmAnd-Rendering/Cycling"><img src="/icon/Cycling.svg" width="30" alt="Cycling" title="Cycling">&nbsp;Cycling</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="https://github.com/OsmAnd-Rendering/Hiking"><img src="/icon/Hiking.svg" width="30" alt="Hiking" title="Hiking">&nbsp;Hiking</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="https://github.com/OsmAnd-Rendering/Online-Maps"><img src="/icon/online_map.svg" width="40" alt="online_map" title="Online-Maps">&nbsp;Online-Maps</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="https://github.com/OsmAnd-Rendering/How-to-create-a-rendering"><img src="/icon/Create.svg" width="27" alt="create" title="create">&nbsp;Create a<br> rendering</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
   
-
-    <!--<nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>-->
-
-      <!-- A Search form is another common non-linear way to navigate through a website. -->
-
-      <!--<form>
-        <input type="search" name="q" placeholder="Search query">
-        <input type="submit" value="Go!">
-      </form>
-    </nav>-->
-
     <!-- Here is our page's main content -->
     <main>
 
@@ -72,7 +82,7 @@
 
         <h3>Welcome to OsmAnd Rendering! </h3>
 
-        <p>We are users of <a href="https://osmand.net/">OsmAnd</a><a href="https://osmand.net/"><img src="/icon/logo_osmand.svg" width="25" /></a> & contributors to <a href="https://www.openstreetmap.org/">OpenStreetMap</a><a href="https://www.openstreetmap.org/"><img src="/icon/logo_openstreetmap.svg" width="20" /></a>. We really like the multi-activity aspect and the flexibility of this application!</p>
+        <p>We are users of <a class="div-link" href="https://osmand.net/">OsmAnd</a><a href="https://osmand.net/"><img src="/icon/logo_osmand.svg" width="25" /></a> & contributors to <a class="div-link" href="https://www.openstreetmap.org/">OpenStreetMap</a><a href="https://www.openstreetmap.org/"><img src="/icon/logo_openstreetmap.svg" width="20" /></a>. We really like the multi-activity aspect and the flexibility of this application!</p>
         
         <p>Our desire to improve our experience with OsmAnd pushed us to create various display styles, some individually, some collaboratively, with little or no knowledge & we ended up putting them together on this Github to share them with as many people as possible.</p>
         
@@ -83,54 +93,45 @@
 
 
         <ul>
-            <li>To the members of <a href="https://www.randonner-leger.org/"> for their support & advice, the first stone of the edifice! <img src="/icon/hiking.svg" width="20" /></li>
-            <li>To the members of <a href="https://www.openstreetmap.org/">OSM FR &amp; ES</a> very active! <img src="/icon/enduro.svg" width="20" /> <img src="/icon/hiking.svg" width="20" /> <img src="/icon/bicycle.svg" width="20" /> <img src="/icon/online_map.svg" width="20" /></li>
-            <li>To the members of <a href="https://www.terre-bitume.org/">terre bitume</a> for their support and advice! <img src="/icon/enduro.svg" width="20" /></li>
+            <li>To the members of <a class="div-link" href="https://www.randonner-leger.org/"> for their support & advice, the first stone of the edifice! <img src="/icon/hiking.svg" width="20" /></li>
+            <li>To the members of <a class="div-link" href="https://www.openstreetmap.org/">OSM FR &amp; ES</a> very active! <img src="/icon/enduro.svg" width="20" /> <img src="/icon/hiking.svg" width="20" /> <img src="/icon/bicycle.svg" width="20" /> <img src="/icon/online_map.svg" width="20" /></li>
+            <li>To the members of <a class="div-link" href="https://www.terre-bitume.org/">terre bitume</a> for their support and advice! <img src="/icon/enduro.svg" width="20" /></li>
             <li>To the OsmAnd team, for their application full of potential and for their availability to answer us!</li>
         </ul>
         <br><br>
       
     </article>
 
-
-
-
-      <!-- the aside content can also be nested within the main content -->
-      <aside>
-        <div class="sticky"><h3 style="text-align:center">Styles</h3><p style="text-align:center"><a href="https://github.com/OsmAnd-Rendering/Motorcycle"><img src="/icon/enduro.svg" width="40" ></a><br><a href="https://github.com/OsmAnd-Rendering/Motorcycle">Motorcycle</a></p>
-          <p style="text-align:center"><a href="https://github.com/OsmAnd-Rendering/Cycling"><img src="/icon/bicycle.svg" width="40" ></a><br><a href="https://github.com/OsmAnd-Rendering/Cycling">Cycling</a></p>
-          <p style="text-align:center"><a href="https://github.com/OsmAnd-Rendering/Hiking"><img src="/icon/hiking.svg" width="40" ></a><br><a href="https://github.com/OsmAnd-Rendering/Hiking">Hiking</a></p>
-          <p style="text-align:center"><a href="https://github.com/OsmAnd-Rendering/Online-Maps"><img src="/icon/online_map.svg" width="40" ></a><br><a href="https://github.com/OsmAnd-Rendering/Online-Maps">Online-Maps</a></p>
-          <p style="text-align:center"><a href="https://github.com/OsmAnd-Rendering/How-to-create-a-rendering"><img src="/icon/draw.svg" width="30" ></a><br><a href="https://github.com/OsmAnd-Rendering/How-to-create-a-rendering">Create a<br> rendering</a></p></div>
-
-
-
-      </aside>
-
-
-
-
     </main>
 
     <!-- And here is our main footer that is used across all the pages of our website -->
 
     <footer>
-
+      <br><br>
+  
       <h3 style="text-align:center">Contact us</h3>
-
-      <div class="center-div" style="display: flex; align-items: center; text-align: center">
-        <img src="/icon/logo_telegram.svg" width="25">
-        <p>&nbsp<a href="https://t.me/OsmandRendering">Telegram</a>&emsp;</p>
-        <img src="/icon/logo_matrix.svg" width="25">
-        <p>&nbsp<a href="https://matrix.to/#/#render-osmand:tedomum.net">Matrix</a>&emsp;</p>
-        <img src="/icon/logo_github.svg" width="25" />
-        <p>&nbsp<a href="https://github.com/OsmAnd-Rendering">Github</a></p>
-        </div>  
-
-
+      <br>
+        <div class="center-div" style="display: flex; align-items: center; text-align: center">
+          <img src="/icon/logo_telegram.svg" width="25" alt="logo_telegram" title="logo_telegram">
+          <p>&nbsp<a class="div-link" href="https://t.me/OsmandRendering">Telegram</a>&emsp;</p>
+          <img src="/icon/logo_matrix.svg" width="25" alt="logo_matrix" title="logo_matrix">
+          <p>&nbsp<a class="div-link" href="https://matrix.to/#/#render-osmand:tedomum.net">Matrix</a>&emsp;</p>
+          <img src="/icon/logo_github.svg" width="25" alt="logo_github" title="logo_github">
+          <p>&nbsp<a class="div-link" href="https://github.com/OsmAnd-Rendering">Github</a></p>
+        </div>
+  
+        <br><br><br><br>
+  
+  
+  
       <p style="text-align:center">Content available under GPL-3.0 license</p>
-      
+      <br>
+  
+  
     </footer>
-
+      
+    <script src="/Script.js"></script>
+  
   </body>
+
 </html>
