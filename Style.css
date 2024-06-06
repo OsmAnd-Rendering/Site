@@ -2,6 +2,10 @@
   color-scheme: light dark; /* both supported */
   --text: #0d1117;
   --bg: #dddddd;
+  --navbar-bg-color: hsl(0, 0%, 15%);
+  --navbar-text-color: hsl(0, 0%, 85%);
+  --navbar-text-color-focus: white;
+  --navbar-bg-contrast: hsl(0, 0%, 25%);
 }
 
 body {
@@ -154,13 +158,6 @@ div.sticky {
 .center {
   margin-left: auto;
   margin-right: auto;
-}
-
-:root {
-  --navbar-bg-color: hsl(0, 0%, 15%);
-  --navbar-text-color: hsl(0, 0%, 85%);
-  --navbar-text-color-focus: white;
-  --navbar-bg-contrast: hsl(0, 0%, 25%);
 }
 
 * {
