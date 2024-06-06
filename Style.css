@@ -22,7 +22,6 @@ body {
 }
 
 html, body {
-
   margin: 0;
   padding: 0;
 }
@@ -93,6 +92,13 @@ h4 {
 p, li, span, th {
   font-size: 1.2;
   line-height: 1.5;
+}
+
+a.div-link:hover {
+  border: 1px solid #ff8800;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0 auto;
 }
 
 /*  Table*/
