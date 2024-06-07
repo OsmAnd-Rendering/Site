@@ -159,154 +159,154 @@
       <br>
 
       <h4 id="en-bref">Améliorations du style</h4>
-    <p>What has changed:</p>
-    <ul>
-      <li>Trails and paths / track in a simplified way</li>
-      <li>Difficulty of trails</li>
-      <li>Visibility of the trails</li>
-      <li>Bridges</li>
-      <li>Useful / interesting POIs during the hike are surrounded by a white circle to highlight them</li>
-      <li>POIs useful when passing through a hamlets / village / town, are pre-activated and surrounded by a colored circle depending on the category</li>
-      <li>Contour lines</li>
-      <li>Color of land and water occupations</li>
-      <li>Symbols of land use (Shader)</li>
-      <li>Cols and mountain pass</li>
-      <li>Information panels</li>
-      <li>Towns / villages / hamlets</li>
-      <li>Text size</li>
-      <li>Natural reserves</li>
-      <li>Ridge lines, gorges, corridors, valleys, mountain names</li>
-      <li>Antennas, towers (buildings), wind turbines icons</li>
-      <li>Opaque color for routes based on OSMC symbols</li>
-    </ul>
-    <br>
+      <p>What has changed:</p>
+      <ul>
+        <li>Trails and paths / track in a simplified way</li>
+        <li>Difficulty of trails</li>
+        <li>Visibility of the trails</li>
+        <li>Bridges</li>
+        <li>Useful / interesting POIs during the hike are surrounded by a white circle to highlight them</li>
+        <li>POIs useful when passing through a hamlets / village / town, are pre-activated and surrounded by a colored circle depending on the category</li>
+        <li>Contour lines</li>
+        <li>Color of land and water occupations</li>
+        <li>Symbols of land use (Shader)</li>
+        <li>Cols and mountain pass</li>
+        <li>Information panels</li>
+        <li>Towns / villages / hamlets</li>
+        <li>Text size</li>
+        <li>Natural reserves</li>
+        <li>Ridge lines, gorges, corridors, valleys, mountain names</li>
+        <li>Antennas, towers (buildings), wind turbines icons</li>
+        <li>Opaque color for routes based on OSMC symbols</li>
+      </ul>
+      <br>
 
-    <h4 id="nous-avons-ajouté-des-réglages-supplémentaires">We have added additional settings:</h4>
+      <h4 id="nous-avons-ajouté-des-réglages-supplémentaires">We have added additional settings:</h4>
     
-    <ul>
-      <li><p>"Hide" settings:</p>
-        <ul>
-          <li>Symbols of nature reserves</li>
-          <li>Color of nature reserves</li>
-          <li>Visibility of the trails</li>
-          <li>POI pre-activated</li>
-          <li>Land use symbols</li>
-        </ul>
-      </li>
-      <li><p>Contour line settings</p>
-        <ul>
-          <li>Additional density</li>
-          <li>Extra thickness</li>
-        </ul>
-      </li>
-    </ul>
-    <br>
+      <ul>
+        <li><p>"Hide" settings:</p>
+          <ul>
+            <li>Symbols of nature reserves</li>
+            <li>Color of nature reserves</li>
+            <li>Visibility of the trails</li>
+            <li>POI pre-activated</li>
+            <li>Land use symbols</li>
+          </ul>
+        </li>
+        <li><p>Contour line settings</p>
+          <ul>
+            <li>Additional density</li>
+            <li>Extra thickness</li>
+          </ul>
+        </li>
+      </ul>
+      <br>
 
-    <h4>We have disabled:</h4>
-    <ul>
-      <li><p>the quality of the surfaces (Smoothness)</p>
-    <ul>
-    <br><br>
+      <h4>We have disabled:</h4>
+      <ul>
+        <li><p>the quality of the surfaces (Smoothness)</p>
+      <ul>
+      <br><br>
 
 
-    <div style="display: flex; align-items: center;"><img src="/icon/Legend.svg" width="30" id="Legend" alt="Legend" title="Legend">&nbsp<h3>Legend</h3>
-    </div>
+      <div style="display: flex; align-items: center;"><img src="/icon/Legend.svg" width="30" id="Legend" alt="Legend" title="Legend">&nbsp<h3>Legend</h3>
+      </div>
 
-    <hr>
-    <br>
+      <hr>
+      <br>
 
-    <h4>Path (<code>highway=path</code>) :</h4>
-    <br>
-    <table>
-      <thead>
-        <tr>
-          <th>Legend</th>
-          <th>Appearance</th>
-        </tr>
-      </thead>
+      <h4>Path (<code>highway=path</code>) :</h4>
+      <br>
+      <table>
+        <thead>
+          <tr>
+            <th>Legend</th>
+            <th>Appearance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Normal</strong><br>- Wider black lines<br>- Elongated shape<br>- Softened</td>
+            <td style="text-align: center"><img src="/legende/jpg/Adoucit.jpg" style="width: 90%; max-width: 200px"></td>
+          </tr>
+          <tr>
+            <td><strong>Access “no or private”</strong><br>- Red-brown lines</td>
+            <td style="text-align: center"><img src="/legende/jpg/path-access.jpg" style="width: 90%; max-width: 200px"></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+
+
+      <h4>Difficulty and visibility of the trails :</h4>
+      <p>These two parameters combine up to a certain zoom. At zoom 18 (50 m) visibility is deactivated, all that remains is the difficulty which is displayed.</p>
+      <br>
+      <p>Color according to the difficulty “CAS scale” (<code>sac_scale=*</code>) :</p>
+      <ul>
+        <li>- T1 black discontinuous</li>
+        <li>- T2 discontinuous pink</li>
+        <li>- T3 continuous pink</li>
+        <li>- T4 purple discontinuous</li>
+        <li>- T5 continuous purple</li>
+        <li>- T6 elongated dotted purple</li>
+      </ul>
+      <br>
+      <p>Trail visibility (<code>trail_visibility=*</code>) :</p>
+      <br>
+      <ul>
+        <li>Bad (<code>bad</code>) : dotted</li>
+        <li>Horrible (<code>horrible</code>) : dotted lines spaced further apart</li>
+        <li>No (<code>no</code>) : widely spaced dotted lines</li>
+      </ul>
+      <br>
+      <p style="text-align:center;"><a href="/legende/jpg/Légende-EN.jpg"><img src="/legende/jpg/Légende-EN.jpg" style="width: 80%; max-width: 600px"/></a></p><br>
+
+      <br>
+
+      <h4>Path/Agricultural path/forestry track (<code>highway=track</code>) :</h4>
+      <p>Grades 1 and 2 (<code>tracktype=grade1</code>/<code>grade2</code>)</p>
+      <br>
+      <table>
+        <thead>
+          <tr>
+            <th>Legend</th>
+            <th>Appearance</th>
+          </tr>
+        </thead>
       <tbody>
-        <tr>
-          <td><strong>Normal</strong><br>- Wider black lines<br>- Elongated shape<br>- Softened</td>
-          <td style="text-align: center"><img src="/legende/jpg/Adoucit.jpg" style="width: 90%; max-width: 200px"></td>
-        </tr>
-        <tr>
-          <td><strong>Access “no or private”</strong><br>- Red-brown lines</td>
-          <td style="text-align: center"><img src="/legende/jpg/path-access.jpg" style="width: 90%; max-width: 200px"></td>
-        </tr>
-      </tbody>
-    </table>
-    <br>
-
-
-    <h4>Difficulty and visibility of the trails :</h4>
-    <p>These two parameters combine up to a certain zoom. At zoom 18 (50 m) visibility is deactivated, all that remains is the difficulty which is displayed.</p>
-    <br>
-    <p>Color according to the difficulty “CAS scale” (<code>sac_scale=*</code>) :</p>
-    <ul>
-      <li>- T1 black discontinuous</li>
-      <li>- T2 discontinuous pink</li>
-      <li>- T3 continuous pink</li>
-      <li>- T4 purple discontinuous</li>
-      <li>- T5 continuous purple</li>
-      <li>- T6 elongated dotted purple</li>
-    </ul>
-    <br>
-    <p>Trail visibility (<code>trail_visibility=*</code>) :</p>
-    <br>
-    <ul>
-      <li>Bad (<code>bad</code>) : dotted</li>
-      <li>Horrible (<code>horrible</code>) : dotted lines spaced further apart</li>
-      <li>No (<code>no</code>) : widely spaced dotted lines</li>
-    </ul>
-    <br>
-    <p style="text-align:center;"><a href="/legende/jpg/Légende-EN.jpg"><img src="/legende/jpg/Légende-EN.jpg" style="width: 80%; max-width: 600px"/></a></p><br>
-
-    <br>
-
-    <h4>Path/Agricultural path/forestry track (<code>highway=track</code>) :</h4>
-    <p>Grades 1 and 2 (<code>tracktype=grade1</code>/<code>grade2</code>)</p>
-    <br>
-    <table>
-      <thead>
-        <tr>
-          <th>Legend</th>
-          <th>Appearance</th>
-        </tr>
-      </thead>
-    <tbody>
-        <tr>
-          <td><strong>Normal</strong><br>- Solid white line<br>- Black lines<br>discontinuous line on the sides</td>
-          <td style="text-align: center;"><img src="/legende/jpg/tracktype-1-2.jpg" style="width: 90%; max-width: 200px"></td>
-        </tr>
-        <tr>
-          <td><strong>Access “no or private”</strong> (<code>acces=private</code>/<code>no</code>)<br>- Red-brown lines<br>discontinuous line on the sides</td>
-          <td style="text-align: center"><img src="/legende/jpg/track-1-2-access.jpg" style="width: 90%; max-width: 200px"></td>
-        </tr>
-      </tbody>
-    </table>
-    <br>
-    <p>Grades 3, 4 et 5 (<code>tracktype=grade3</code>/<code>grade4</code>/<code>grade5</code>)</p>
-    <br>
-    <table>
-      <thead>
-        <tr>
-          <th>Legend</th>
-          <th>Appearance</th>
-        </tr>
-      </thead>
-    <tbody>
-        <tr>
-          <td><strong>Normal</strong><br>- Solid black line</td>
-          <td style="text-align: center"><img src="/legende/jpg/tracktype-3-4-5.jpg" style="width: 90%; max-width: 200px"></td>
-        </tr>
-        <tr>
-          <td><strong>Access “no or private”</strong> (<code>acces=private</code>/<code>no</code>)<br>- Solid white line with broken red line on the sides</td>
-          <td style="text-align: center"><img src="/legende/jpg/track-3-4-5-access.jpg" style="width: 90%; max-width: 200px"></td>
-        </tr>
-      </tbody>
-    </table>
-    <br><br>
-    <hr>
+          <tr>
+            <td><strong>Normal</strong><br>- Solid white line<br>- Black lines<br>discontinuous line on the sides</td>
+            <td style="text-align: center;"><img src="/legende/jpg/tracktype-1-2.jpg" style="width: 90%; max-width: 200px"></td>
+          </tr>
+          <tr>
+            <td><strong>Access “no or private”</strong> (<code>acces=private</code>/<code>no</code>)<br>- Red-brown lines<br>discontinuous line on the sides</td>
+            <td style="text-align: center"><img src="/legende/jpg/track-1-2-access.jpg" style="width: 90%; max-width: 200px"></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <p>Grades 3, 4 et 5 (<code>tracktype=grade3</code>/<code>grade4</code>/<code>grade5</code>)</p>
+      <br>
+      <table>
+        <thead>
+          <tr>
+            <th>Legend</th>
+            <th>Appearance</th>
+          </tr>
+        </thead>
+      <tbody>
+          <tr>
+            <td><strong>Normal</strong><br>- Solid black line</td>
+            <td style="text-align: center"><img src="/legende/jpg/tracktype-3-4-5.jpg" style="width: 90%; max-width: 200px"></td>
+          </tr>
+          <tr>
+            <td><strong>Access “no or private”</strong> (<code>acces=private</code>/<code>no</code>)<br>- Solid white line with broken red line on the sides</td>
+            <td style="text-align: center"><img src="/legende/jpg/track-3-4-5-access.jpg" style="width: 90%; max-width: 200px"></td>
+          </tr>
+        </tbody>
+      </table>
+      <br><br>
+      <hr>
 
     </article>
 
