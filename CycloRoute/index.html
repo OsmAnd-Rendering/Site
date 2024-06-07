@@ -73,26 +73,26 @@
   
       <!-- It contains an article -->
       <article>
-  
+
         <a id="home"></a>
-  
+      
         <br><br>
-  
+      
         <p style="text-align:center;"><img src="/icon/Cycling.svg" width="200" class="center" alt="Cycling" title="Cycling"></p>
-  
+      
         <br>
-  
+      
         <h2>CycloRoute</h2>
-  
+      
         <p>Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme<br>
           <em>(Dernière mise à jour 10/05/2024)</em>
         </p>
         <br><br>
-  
+      
         <div style="display: flex; align-items: center;"><img src="/icon/info.svg" width="30" id="info" alt="info" title="info">&nbsp<h3>Caractéristiques du style :</h3>
         </div>
         <hr><br>
-  
+      
         <ul>
           <li>
             <p>Inspiré de <a class="div-link" href="https://www.cyclosm.org/">CyclOSM</a> : </p>
@@ -121,15 +121,17 @@
         </ul>
         </ul>
         <br><br>
-  
+      
         <div style="display: flex; align-items: center;"><img src="/icon/Screenshots.svg" width="30" id="Screenshots" alt="Screenshots" title="Screenshots">&nbsp<h3>Screenshots</h3>
         </div>
-  
+      
         <hr>
         <br><br>
-
+      
         <ul>
-        <li><h4>Mode vélo</h4></li>
+          <li>
+            <h4>Mode vélo</h4>
+          </li>
         </ul>
         <p style="text-align:center;">
           <a href="/Screenshots/CycloRoute_Cycling-1.png"><img src="/Screenshots/CycloRoute_Cycling-1.png" style="width: 25%; max-width: 200px" /></a>
@@ -138,21 +140,23 @@
         </p>
         <br>
         <ul>
-            <li><h4>Mode CycloTourisme</h4></li>
+          <li>
+            <h4>Mode CycloTourisme</h4>
+          </li>
         </ul>
         <p style="text-align:center;">
           <a href="/Screenshots/CycloRoute_Touring-1.png"><img src="/Screenshots/CycloRoute_Touring-1.png" style="width: 25%; max-width: 200px" /></a>
           <a href="/Screenshots/CycloRoute_Touring-2.png"><img src="/Screenshots/CycloRoute_Touring-2.png" style="width: 25%; max-width: 200px" /></a>
           <a href="/Screenshots/CycloRoute_Touring-3.png"><img src="/Screenshots/CycloRoute_Touring-3.png" style="width: 25%; max-width: 200px" /></a>
         </p>
-  
+      
         <br><br>
-  
+      
         <div style="display: flex; align-items: center;"><img src="/icon/Download.svg" width="30" id="Download" alt="Download" title="Download">&nbsp<h3>Instructions d&#39;installation</h3>
         </div>
         <hr>
         <br>
-  
+      
         <ul>
           <li>Télécharger <a class="div-link" href="https://github.com/OsmAnd-Rendering/Cycling/raw/main/CycloRoute.osf">ce fichier</a></li>
         </ul>
@@ -199,15 +203,147 @@
             </tr>
           </tbody>
         </table>
-  
+      
         <br><br>
-  
+      
         <div style="display: flex; align-items: center;"><img src="/icon/Legend.svg" width="30" id="Legend" alt="Legend" title="Legend">&nbsp<h3>Légende</h3>
         </div>
-  
+      
         <hr>
         <br>
-  
+      
+        <h4>Legende du fond de carte CyclOSM que nous avons intégré à notre style</h4>
+        <ul>
+          <li>
+            <h4>Infrastructure cyclable</h4>
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <td><span style="display: inline-block; height: 0.5em; width: 2em; border-top: solid blue 3px; vertical-align: middle;"></span></td>
+            <td>Piste cyclable séparée</td>
+          </tr>
+          <tr>
+            <td><span style="display: inline-block; height: 0.5em; width: 2em; border-top: solid #0050ff 3px; vertical-align: middle;"></span></td>
+            <td>Voie verte</td>
+          </tr>
+          <tr>
+            <td>
+              <span style="display: inline-block; height: 1.5em; width: 2em;">
+                <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                  <line x1="10%" x2="150%" y1="10%" y2="10%" stroke-linecap="butt" stroke="blue" stroke-width="20%" />
+                  <line x1="10%" x2="150%" y1="70%" y2="70%" stroke-linecap="butt" stroke="black" stroke-width="20%" />
+                  <rect x="10%" y="10%" width="140%" height="60%" fill="#ccc" />
+                </svg>
+              </span>
+            </td>
+            <td>Piste cyclable de ce côté de la chaussée</td>
+          </tr>
+          <tr>
+            <td>
+              <span style="display: inline-block; height: 1.5em; width: 2em;">
+                <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                  <line x1="10%" x2="150%" y1="10%" y2="10%" stroke-linecap="butt" stroke-dasharray="6,3" stroke="blue" stroke-width="20%" />
+                  <line x1="10%" x2="150%" y1="70%" y2="70%" stroke-linecap="butt" stroke="black" stroke-width="20%" />
+                  <rect x="10%" y="10%" width="140%" height="60%" fill="#ccc" />
+                </svg>
+              </span>
+            </td>
+            <td>Bande cyclable de ce côté de la chaussée</td>
+          </tr>
+          <tr>
+            <td>
+              <span style="display: inline-block; height: 1.5em; width: 2em;">
+                <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                  <line x1="10%" x2="150%" y1="10%" y2="10%" stroke-linecap="butt" stroke-dasharray="6, 10" stroke="blue" stroke-width="20%" />
+                  <line x1="10%" x2="150%" y1="70%" y2="70%" stroke-linecap="butt" stroke="black" stroke-width="20%" />
+                  <rect x="10%" y="10%" width="140%" height="60%" fill="#ccc" />
+                </svg>
+              </span>
+            </td>
+            <td>Bande partagée (avec bus ou véhicule à moteur) de ce côté de la chaussée <br /> Accotement de route ouvert aux vélos</td>
+          </tr>
+          <tr>
+          </tr>
+        </table>
+      
+        <ul>
+          <li>
+            <h4>Véloroute</h4>
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <td style="width: 2em;"><span style="display: inline-block; height: 1em; width: 2em; background-color: #ff00ff; opacity: 0.5;"></span></td>
+            <td>Véloroute internationale</td>
+          </tr>
+      
+          <tr>
+            <td><span style="display: inline-block; height: 1em; width: 2em; background-color: #aa00ff; opacity: 0.5;"></span></td>
+            <td>Véloroute nationale</td>
+          </tr>
+      
+          <tr>
+            <td><span style="display: inline-block; height: 1em; width: 2em; background-color: #5500ff; opacity: 0.5;"></span></td>
+            <td>Véloroute régionale</td>
+          </tr>
+      
+          <tr>
+            <td><span style="display: inline-block; height: 1em; width: 2em; background-color: #0000ff; opacity: 0.5;"></span></td>
+            <td>Véloroute locale</td>
+          </tr>
+      
+          <tr>
+            <td><span style="display: inline-block; height: 1em; width: 2em; background-color: #d15000; opacity: 0.5;"></span></td>
+            <td>Itinéraire VTT</td>
+          </tr>
+          <tr>
+            <td><span style="display: inline-block; height: 2em; width: 2em; background: url('https://www.cyclosm.org/symbols/shields/rcn-junction_1x1.svg') no-repeat; background-position: center; padding-top: 1em; color: white; font-family: sans-serif; font-weight: 500;">16</span></td>
+            <td>Noeud cyclable numéroté</td>
+          </tr>
+        </table>
+      
+        <ul>
+          <li>
+            <h4>Equipements spécifiques vélo</h4>
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <td><img src="https://www.cyclosm.org/symbols/openstreetmap-carto/amenity/bicycle_repair_station.svg" /></td>
+            <td>Station de réparation vélo</td>
+          </tr>
+      
+          <tr>
+            <td><img src="https://www.cyclosm.org/symbols/osmandapp/amenity/compressed_air.svg" /></td>
+            <td>Air compressé</td>
+          </tr>
+      
+          <tr>
+            <td><img src="https://www.cyclosm.org/symbols/shop/convenience_air.svg" /></td>
+            <td>Station service avec air compressé</td>
+          </tr>
+      
+          <tr>
+            <td><span style="display: inline-block; width: 0.5em; height: 0.5em; background-color: blue; border-radius: 50%;"></span></td>
+            <td>Stationnement vélo</td>
+          </tr>
+      
+          <tr>
+            <td><span style="display: inline-block; width: 0.5em; height: 0.5em; background-color: #0050ff; border-radius: 50%;"></span></td>
+            <td>Stationnement partagé vélo moto</td>
+          </tr>
+          <tr>
+            <td><img src="https://www.cyclosm.org/symbols/osm-bright-gl-style/amenities/bicycle_rental_11.svg" /></td>
+            <td>Location vélo</td>
+          </tr>
+      
+          <tr>
+            <td><img src="https://www.cyclosm.org/symbols/osm-bright-gl-style/amenities/bicycle_11.svg" /></td>
+            <td>Boutique vélo</td>
+          </tr>
+        </table>
+      
       </article>
   
       <!-- And here is our main footer that is used across all the pages of our website -->
