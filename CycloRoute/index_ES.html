@@ -1,63 +1,239 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="es">
     <head>
-        <title>OsmAnd Rendering FR</title>
-        <link data-rh="true" rel="icon" href="icon/logo_OsmAnd-Rendering.svg">
-    </head>
-    <span style="float:left;"><img src="icon/logo_github.svg" width="25" /> </span>
-    <span style="float:left;"><a href="https://github.com/OsmAnd-Rendering">OsmAnd Rendering Github</a>&emsp;</span>
-    <span style="float:left;"><a href="https://github.com/osmandapp/">OsmAnd GitHub</a>&emsp;</span>
-    
-    <span style="float:right;"><a href="index_EN.html">English</a>&emsp;</span>
-    <span style="float:right;"><code>Español</code>&emsp;</span>
-    <span style="float:right;"><a href="index.html">Français</a>&emsp;</span>
-    <span style="float:right;"><img src="icon/translate.svg" width="20" /> </span> 
-    <br>
+        <meta charset="utf-8">
+        <!-- HTML Meta Tags -->
+        <title>CycloRoute</title>
+        <meta name="description" content="Estilo para ciclismo y turismo. Diseñado por y para usuarios de OsmAnd">
+      
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://osmand-rendering.github.io/CycloRoute/index_ES.html">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="CycloRoute">
+        <meta property="og:description" content="Estilo para ciclismo y turismo. Diseñado por y para usuarios de OsmAnd">
+        <meta property="og:image" content="https://osmand-rendering.github.io/image/logo_OsmAnd-Rendering-OG.png">
+      
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="osmand-rendering.github.io">
+        <meta property="twitter:url" content="https://osmand-rendering.github.io/CycloRoute/index_ES.html">
+        <meta name="twitter:title" content="CycloRoute">
+        <meta name="twitter:description" content="Estilo para ciclismo y turismo. Diseñado por y para usuarios de OsmAnd">
+        <meta name="twitter:image" content="https://osmand-rendering.github.io/image/logo_OsmAnd-Rendering-OG.png">
+      
+        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+      
+        <link rel="alternate" href="https://osmand-rendering.github.io/CycloRoute/index.html" hreflang="fr" />
+        <link rel="alternate" href="https://osmand-rendering.github.io/CycloRoute/index_ES.html" hreflang="es" />
+        <link rel="alternate" href="https://osmand-rendering.github.io/CycloRoute/index_EN.html" hreflang="x-default" />
+      
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="color-scheme" content="dark light">
+      
+        <link data-rh="true" rel="icon" href="/icon/Cycling.svg">
+        <link rel="stylesheet" href="/Style.css">
+      
+      </head>
 
-    <p style="text-align:center;"> <img src="icon/logo_OsmAnd-Rendering.svg" width="200" class="center"> </p>
-    
-    <h1 id="¡bienvenido-a-osmand-rendering">¡Bienvenido a OsmAnd Rendering!</h1>
-    
-    <p>Somos usuarios de <a href="https://osmand.net/">OsmAnd</a><a href="https://osmand.net/"><img src="icon/logo_osmand.svg" width="25" /></a> y colaboradores de <a href="https://www.openstreetmap.org/">OpenStreetMap</a><a href="https://www.openstreetmap.org/"><img src="icon/logo_openstreetmap.svg" width="20" /></a> y nos gustan mucho la flexibilidad y las posibilidades que ofrece esta aplicación para múltiples actividades.</p>
-    
-    <p>Nuestras ganas de mejorar nuestra experiencia con OsmAnd nos llevó a crear varios estilos de visualización, algunos individualmente y otros en colaboración, con muy poco o ningún conocimiento al principio. Y ahora hemos conseguido reunirlos en este Github para poder compartirlos con la máxima cantidad de usuarios.</p>
-    
-    <p>Nuestro equipo de felices curiosos, creativos apasionados, provenientes de diversos horizontes, ya ha creado algunos de los estilos que encontrarás a continuación. ¡Pruébalos y cuéntanos tus experiencias y opiniones!</p>
-    
-    <ul>
-        <li><a href="https://matrix.to/#/#render-osmand:tedomum.net">Matriz</a> — <code>#render-osmand:tedomum.net</code></li>
-        <li><a href="https://t.me/OsmandRendering">Telegrama</a> — <code>@OsmandRendering</code></li>
-    </ul>
+      <body>
 
-    <h2 id="gracias">Gracias</h2>
+        <!-- Here is our main header that is used across all the pages of our website -->
+        <header id="navbar">
+          <nav class="navbar-container container">
+            <a href="/" class="home-link">
+              <div class="navbar-logo"><img src="/icon/logo_OsmAnd-Rendering.svg" width="65" alt="logo_OsmAnd-Rendering" title="logo_OsmAnd-Rendering"></div>
+            </a>
+            <button type="button" class="navbar-lang" aria-label="Toggle menu" aria-expanded="false" aria-controls="navbar-menu">
+              <img src="/icon/translate.svg" width="20" alt="translate" title="translate">&nbsp;&nbsp;&nbsp;FR&nbsp;&nbsp;<a class="navbar-link" href="/Hiking/index_ES.html">ES</a><a class="navbar-link" href="/Hiking/index_EN.html">EN</a>
+            </button>
+            <button type="button" class="navbar-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navbar-menu">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div id="navbar-menu" class="detached">
+              <ul class="navbar-links">
+                <li class="navbar-item"><a class="navbar-link" href="#home" onclick="closeMobileNavbar()"><img src="/icon/home.svg" width="30" alt="home" title="home">&nbsp;Accueil</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#info" onclick="closeMobileNavbar()"><img src="/icon/info.svg" width="30" alt="info" title="info">&nbsp;Caractéristiques</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#Screenshots" onclick="closeMobileNavbar()"><img src="/icon/Screenshots.svg" width="27" alt="Screenshots" title="Screenshots">&nbsp;Screenshots</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#Download" onclick="closeMobileNavbar()"><img src="/icon/Download.svg" width="32" alt="Download" title="Download">&nbsp;Installation</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#Legend" onclick="closeMobileNavbar()"><img src="/icon/Legend.svg" width="30" alt="Legend" title="Legend">&nbsp;Légende</a></li>
+              </ul>
+            </div>
+          </nav>
+      
+        </header>
+      
+        <!-- Here is our page's main content -->
+        <main>
+          <a id="home"></a>
+      
+          <!-- It contains an article -->
+          <article>
+      
+            <a id="home"></a>
+      
+            <br><br>
+      
+            <p style="text-align:center;"><img src="/icon/Cycling.svg" width="200" class="center" alt="Cycling" title="Cycling"></p>
+      
+            <br>
+      
+            <h2>CycloRoute</h2>
+      
+            <p>Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme<br>
+              <em>(Dernière mise à jour 10/05/2024)</em>
+            </p>
+            <br><br>
+      
+            <div style="display: flex; align-items: center;"><img src="/icon/info.svg" width="30" id="info" alt="info" title="info">&nbsp<h3>Caractéristiques du style :</h3>
+            </div>
+            <hr><br>
+      
+            <ul>
+              <li>
+                <p>Inspiré de <a class="div-link" href="https://www.cyclosm.org/">CyclOSM</a> : </p>
+                <ul>
+                  <li>Pistes cyclables plus lisibles et visibles</li>
+                  <li>POI utiles / intéressants mis en évidence</li>
+                  <li>Couleur opaque pour les itinéraires<br><br></li>
+                </ul>
+              </li>
+              <li>
+                <p>Inspiré de <a class="div-link" href="https://en.mapy.cz/">Mapy.cz</a> :</p>
+                <ul>
+                  <li>Couleur des terres et de l&#39;eau<br><br></li>
+                </ul>
+              </li>
+              <li>
+                <p>Réglage supplémentaire :</p>
+                <ul>
+                  <li>POI pour le cyclotourisme</li>
+                  <li>Pour masquer les logos d&#39;utilisation des terres<br><br></li>
+                </ul>
+              </li>
+              <li>
+                <p>Encore plus ;-)</p>
+              </li>
+            </ul>
+            </ul>
+            <br><br>
+      
+            <div style="display: flex; align-items: center;"><img src="/icon/Screenshots.svg" width="30" id="Screenshots" alt="Screenshots" title="Screenshots">&nbsp<h3>Screenshots</h3>
+            </div>
+      
+            <hr>
+            <br><br>
+    
+            <ul>
+            <li><h4>Mode vélo</h4></li>
+            </ul>
+            <p style="text-align:center;">
+              <a href="/Screenshots/CycloRoute_Cycling-1.png"><img src="/Screenshots/CycloRoute_Cycling-1.png" style="width: 25%; max-width: 200px" /></a>
+              <a href="/Screenshots/CycloRoute_Cycling-2.png"><img src="/Screenshots/CycloRoute_Cycling-2.png" style="width: 25%; max-width: 200px" /></a>
+              <a href="/Screenshots/CycloRoute_Cycling-3.png"><img src="/Screenshots/CycloRoute_Cycling-3.png" style="width: 25%; max-width: 200px" /></a>
+            </p>
+            <ul>
+                <li><h4>Mode CycloTourisme</h4></li>
+            </ul>
+            <p style="text-align:center;">
+              <a href="/Screenshots/CycloRoute_Touring-1.png"><img src="/Screenshots/CycloRoute_Touring-1.png" style="width: 25%; max-width: 200px" /></a>
+              <a href="/Screenshots/CycloRoute_Touring-2.png"><img src="/Screenshots/CycloRoute_Touring-2.png" style="width: 25%; max-width: 200px" /></a>
+              <a href="/Screenshots/CycloRoute_Touring-3.png"><img src="/Screenshots/CycloRoute_Touring-3.png" style="width: 25%; max-width: 200px" /></a>
+            </p>
+      
+            <br><br>
+      
+            <div style="display: flex; align-items: center;"><img src="/icon/Download.svg" width="30" id="Download" alt="Download" title="Download">&nbsp<h3>Instructions d&#39;installation</h3>
+            </div>
+            <hr>
+            <br>
+      
+            <ul>
+              <li>Télécharger <a class="div-link" href="https://github.com/OsmAnd-Rendering/Cycling/raw/main/CycloRoute.osf">ce fichier</a></li>
+            </ul>
+            <br>
+            <table>
+              <thead>
+                <tr>
+                  <th>Première installation :</th>
+                  <th>Mise à jour du rendu :</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Télécharger le fichier <br>
+                      <li>Ouvrir avec OsmAnd<br>
+                      <li> Cocher toutes les cases pour importer le Profil + rendu<br>
+                      <li> Terminé !<br><br>Votre nouveau profil, avec le rendu "CycloRoute", est prédéfini.<br>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Télécharger le fichier <br>
+                      <li>Ouvrir avec OsmAnd<br>
+                      <li>Cocher uniquement la case "<strong>Ressources</strong>" pour n'importer que le rendu<br>
+                      <li>Fait !<br><br>Votre nouveau rendu "CycloRoute" a remplacé l'ancien<br>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="text-align:center;">Si vous souhaitez l'utiliser pour le cyclotourisme :</td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <ul>
+                      <li>Aller au réglage de la carte<ul>
+                          <li>Appuyer sur « Détails » <ul>
+                              <li>Activer le point d'intérêt pour le cyclotourisme</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul><br><em style="text-align:center;">L'écran affichera les PDI utiles pour le Cyclotourisme en plus de ceux pour le vélo.</em>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+      
+            <br><br>
+      
+            <div style="display: flex; align-items: center;"><img src="/icon/Legend.svg" width="30" id="Legend" alt="Legend" title="Legend">&nbsp<h3>Légende</h3>
+            </div>
+      
+            <hr>
+            <br>
+      
+          </article>
+      
+          <!-- And here is our main footer that is used across all the pages of our website -->
+      
+          <footer>
+            <br>
+      
+            <h3 style="text-align:center">Contactez-nous</h3>
+            <br><br>
+            <div class="center-div" style="display: flex; align-items: center; text-align: center">
+              <img src="/icon/logo_telegram.svg" width="25" alt="logo_telegram" title="logo_telegram">
+              <p>&nbsp<a href="https://t.me/OsmandRendering">Telegram</a>&emsp;</p>
+              <img src="/icon/logo_matrix.svg" width="25" alt="logo_matrix" title="logo_matrix">
+              <p>&nbsp<a href="https://matrix.to/#/#render-osmand:tedomum.net">Matrix</a>&emsp;</p>
+              <img src="/icon/logo_github.svg" width="25" alt="logo_github" title="logo_github">
+              <p>&nbsp<a href="https://github.com/OsmAnd-Rendering">Github</a></p>
+            </div>
+      
+            <br><br><br><br>
+      
+            <p style="text-align:center">Content available under GPL-3.0 license</p>
+            <br>
+      
+          </footer>
+      
+          <script src="/Script.js"></script>
+      
+      </body>
 
-    <ul>
-        <li>A los miembros de <a href="https://www.randonner-leger.org/">Randonner Léger (RL)</a> por su apoyo y sus consejos, ¡la primera piedra de este pryecto! <code>Senderismo</code></li>
-        <li>A los miembros de <a href="https://www.openstreetmap.org/">OSM FR &amp; ES</a> muy activos! <code>Enduro</code> <code>Senderismo</code> <code>CicloRuta</code> <code>Mapa online</code></li>
-        <li>A los miembros de <a href="https://www.terre-bitume.org/">terre bitume</a> por su apoyo y consejos! <code>Enduro</code></li>
-        <li>Al equipo de OsmAnd, por su aplicación de gran potencial y su disponibilidad para respondernos.
-            <br><br></li>
-        </ul>
-
-
-    <h2 id="repositories-">Repositories:</h2>
-
-    <table style="width:100%">
-        <thead>
-            <tr>
-                <th style="text-align:center"><a href="https://github.com/OsmAnd-Rendering/Motorcycle"><img src="icon/enduro.svg" width="50" ></a><br> <a href="https://github.com/OsmAnd-Rendering/Motorcycle">Motorcycle</a></th>
-                <th style="text-align:center"><a href="https://github.com/OsmAnd-Rendering/Cycling"><img src="icon/bicycle.svg" width="50" ></a><br> <a href="https://github.com/OsmAnd-Rendering/Cycling">Cycling</a></th>
-                <th style="text-align:center"><a href="https://github.com/OsmAnd-Rendering/Hiking"><img src="icon/hiking.svg" width="50" ></a><br> <a href="https://github.com/OsmAnd-Rendering/Hiking">Hiking</a></th>
-                <th style="text-align:center"><a href="https://github.com/OsmAnd-Rendering/Online-Maps"><img src="icon/online_map.svg" width="50" ></a><br> <strong><a href="https://github.com/OsmAnd-Rendering/Online-Maps">Online-Maps</a></strong></th>
-                <th style="text-align:center"><a href="https://github.com/OsmAnd-Rendering/How-to-create-a-rendering"><img src="icon/draw.svg" width="40" ></a><br> <strong><a href="https://github.com/OsmAnd-Rendering/How-to-create-a-rendering">Create a rendering</a></strong></th>
-                <th style="text-align:center"><a href="https://giphy.com/gifs/MwOuiiTfWfWgM"><img src="icon/ic_navbar_overflow_menu_stroke@3x.png" width="40" ></a><br> <strong><a href="https://giphy.com/gifs/MwOuiiTfWfWgM">...</a></strong></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td style="text-align:center"></td>
-            </tr>
-        </tbody>
-    </table>
 
 </html>
