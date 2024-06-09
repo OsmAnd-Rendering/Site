@@ -335,7 +335,7 @@ div.sticky {
   width: 100%;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1250px) {
   .navbar-toggle {
       display: none;
   }
