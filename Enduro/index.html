@@ -344,24 +344,24 @@
       <p>Des calculs de routage pour 3 types d&#39;utilisation moto, chacun de ces routages calcule un itinéraire en fonction des infos disponibles dans OpenStreetMap.
       </p>
       <br>
-      <p>voir ici <strong><a href="installation.md">pour l&#39;installation</a></strong><br>
+      <p>Voir ici <strong><a href="installation.md">pour l&#39;installation</a></strong><br>
         explications sur les catégories de <strong><a href="https://github.com/OsmAnd-Rendering/Motorcycle/wiki/hi%C3%A9rarchie-des-chemins">chemins</a></strong>
       </p>
       <br>
 
       <h4 id="gros-trail">Gros trail</h4>
 
-      <p><b>ne vous fera passer QUE par les chemins faciles (les marrons) et s&#39;il n&#39;en trouve pas, par la route et de tout petits bouts de certains chemins verts.</b>
+      <p><b>Ne vous fera passer QUE par les chemins faciles (les marrons) et s&#39;il n&#39;en trouve pas, par la route et de tout petits bouts de certains chemins verts.</b>
       </p>
       <ul>
         <li>respecte les interdictions (<strong>chemins en rouge</strong> sur la carte)</li>
         <li>respecte les barrières (<strong>points rouges</strong> sur la carte)</li>
         <li>les chemins &quot;<strong>privés</strong>&quot; sont gérés comme avec le profil par défaut d&#39; OsmAnd.</li>
         <li>les chemins &quot;<strong>interdits</strong>&quot; sont regroupés sous le switch &quot;<b>pas d&#39;interdiction</b>&quot; dans &quot;<b>Eviter les routes</b>&quot;.</li>
-        <li>:bulb: il y-à un autre switch dans &quot;<b>Eviter les routes</b>&quot; pour activer un mode &quot;<b>pas de chemins</b>&quot; qui évite au maximum les chemins en restant sur les routes les plus petites possible.</li>
-        <li>:bulb: il y-à un autre switch dans &quot;<b>Eviter les routes</b>&quot; pour activer un mode &quot;<b>si chemins secs</b>&quot; qui rajoute quelques chemins &quot;<strong>verts</strong>&quot; de la carte au cas ou il n&#39;y aurai pas de chemins &quot;<strong>marrons</strong>&quot; à proximité.<br> :warning: Attention à la boue avec des pneus non adaptés !</li>
+        <li>💡 il y-à un autre switch dans &quot;<b>Eviter les routes</b>&quot; pour activer un mode &quot;<b>pas de chemins</b>&quot; qui évite au maximum les chemins en restant sur les routes les plus petites possible.</li>
+        <li>💡 il y-à un autre switch dans &quot;<b>Eviter les routes</b>&quot; pour activer un mode &quot;<b>si chemins secs</b>&quot; qui rajoute quelques chemins &quot;<strong>verts</strong>&quot; de la carte au cas ou il n&#39;y aurai pas de chemins &quot;<strong>marrons</strong>&quot; à proximité.<br>⚠️ Attention à la boue avec des pneus non adaptés !</li>
         <li>considère toutes les routes au même niveau et donc tracera au plus direct.</li>
-        <li>:bulb: il y-à 2 autres switchs dans &quot;<b>Eviter les routes</b>&quot; pour activer un mode &quot;<b>moins de route</b>&quot; et &quot;<b>encore moins de route</b>&quot; qui permettent l&#39;un ou l&#39;autre de trouver plus de chemins si vous faites un trajet de moins de 200 km pour le premier et 100 km pour le second.<br> :warning: le temps de calcul est augmenté et le risque de plantage de l&#39;appli aussi !</li>
+        <li>💡 il y-à 2 autres switchs dans &quot;<b>Eviter les routes</b>&quot; pour activer un mode &quot;<b>moins de route</b>&quot; et &quot;<b>encore moins de route</b>&quot; qui permettent l&#39;un ou l&#39;autre de trouver plus de chemins si vous faites un trajet de moins de 200 km pour le premier et 100 km pour le second.<br>⚠️ Le temps de calcul est augmenté et le risque de plantage de l&#39;appli aussi !</li>
       </ul>
 
       <p><i>(mettez des points intermédiaires pour &quot;forcer&quot; le détour par les &quot;bons&quot; chemins s&#39;il n&#39;y en à pas en ligne directe).</i>
@@ -380,12 +380,12 @@
         <li>les chemins &quot;<strong>interdits</strong>&quot; sont regroupés sous le switch &quot;<b>pas d&#39;interdiction</b>&quot; dans &quot;<b>Eviter les routes</b>&quot;.</li>
         <li>dissuade d&#39;empreinter les chemins trop difficiles (vous pouvez poser un point de passage dessus pour les prendre délibéremment).</li>
         <li>autorise le passage sur les sentiers &quot;faciles&quot; points verts sur la carte.</li>
-        <li>considère tous les chemins de la même façon (pas de carrossable ou de boueux) <br>:bulb: <b>SAUF</b> si le switch &quot;<b>trie les chemins</b>&quot; dans &quot;<b>Eviter les routes</b>&quot; est actif (coché) il va hiérarchiser les chemins du plus carrossable à inconnu.
+        <li>considère tous les chemins de la même façon (pas de carrossable ou de boueux) <br>💡 <b>SAUF</b> si le switch &quot;<b>trie les chemins</b>&quot; dans &quot;<b>Eviter les routes</b>&quot; est actif (coché) il va hiérarchiser les chemins du plus carrossable à inconnu.
           <i><br>
             dans les faits il va pénaliser de plus en plus les chemins qui sont les moins praticables <br>pour aller d&#39;un point A à un point B si 2 chemins à peu près équivalents en distance existent, le moteur de calcul du routage prendra le plus praticable, la proportion de route augmente si les chemins ne sont pas renseignés dans OpenStreetMap.</i>
         </li>
         <li>considère toutes les routes au même niveau et donc tracera au plus direct.</li>
-        <li>:bulb: il y-à un autre switch dans &quot;<b>Eviter les routes</b>&quot; pour activer un mode &quot;<b>moins de route</b>&quot; qui permet de trouver plus de chemins si vous faites un trajet de moins de 200 km .<br> :warning: le temps de calcul est augmenté et le risque de plantage de l&#39;appli aussi !</li>
+        <li>💡 il y-à un autre switch dans &quot;<b>Eviter les routes</b>&quot; pour activer un mode &quot;<b>moins de route</b>&quot; qui permet de trouver plus de chemins si vous faites un trajet de moins de 200 km .<br>⚠️ le temps de calcul est augmenté et le risque de plantage de l&#39;appli aussi !</li>
       </ul>
       <p><i>( ne mettez pas de points trop éloignés pour accélérer le calcul -tous les 100 km par exemple )</i></p>
       <br>
@@ -435,12 +435,12 @@
         proportion route / chemins (et sentiers pour &quot;enduro&quot;)<br>
         type de chemin avec les couleurs correspondantes à celles de la carte avec le style appliqué.<br></p>
       <p>Ici un exemple dans ma région (sud Ouest) (environ 100 km à vol d&#39;oiseau).<br></p>
-      <p>avec le routage &quot;<b>gros trail</b>&quot; sans options actives :<br></p>
+      <p>Avec le routage &quot;<b>gros trail</b>&quot; sans options actives :<br></p>
       <br>
       <p align="center"><img src="/legende/jpg/Routing_gros_trail_od.png" style="width: 80%; max-width: 400px"></p>
       <br><br>
 
-      <p>avec le routage &quot;<b>gros trail</b>&quot; et le switch &quot;<b>si chemins secs</b> actif :<br>
+      <p>Avec le routage &quot;<b>gros trail</b>&quot; et le switch &quot;<b>si chemins secs</b> actif :<br>
         qui rajoute des chemins &quot;<strong>verts</strong>&quot; moins carrossables dans une faible proportion.<br>
         (notez que la proportion de route diminue)
       </p>
@@ -464,12 +464,12 @@
       <p align="center"><img src="/legende/jpg/Routing_petit_trail_otd.png" style="width: 80%; max-width: 400px"></p>
       <br><br>
 
-      <p>le routage &quot;<b>enduro</b>&quot; avec en rouge les sentiers.</p>
+      <p>Le routage &quot;<b>enduro</b>&quot; avec en rouge les sentiers.</p>
       <br>
       <p align="center"><img src="/legende/jpg/Routing_enduro.png" style="width: 80%; max-width: 400px"></p>
       <br><br>
 
-      <p>bon ... n&#39;oubliez pas que c&#39;est perfectible et que dans le meilleur des
+      <p>Bon ... n&#39;oubliez pas que c&#39;est perfectible et que dans le meilleur des
         cas ça se base sur les informations ajoutées dans OpenStreetMap qui
         peuvent être obsolètes (chemins détruit récemment) ou basé sur une
         impression subjective de celui qui l&#39;a renseigné (niveau de difficulté
@@ -477,7 +477,7 @@
       </p>
       <br><br>
 
-      <p>plus de détails dans le <strong><a class="div-link" href="https://github.com/OsmAnd-Rendering/Motorcycle/wiki/FR%E2%80%94Routing">le routage</a></strong></p>
+      <p>Plus de détails dans le <strong><a class="div-link" href="https://github.com/OsmAnd-Rendering/Motorcycle/wiki/FR%E2%80%94Routing">le routage</a></strong></p>
 
       <br><br>
 
