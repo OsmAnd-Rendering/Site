@@ -216,26 +216,97 @@
     <hr>
     <br>
 
-    <h4>Sentier (<code>highway=path</code>) :</h4>
-    <br>
-    <table>
-      <thead>
+    <div class="responsive-columns" style="justify-content: center">
+      <table>
         <tr>
-          <th>Légende</th>
-          <th>Apparence</th>
+          <td colspan=2 align="center">
+            <h4>Sentier (<code>highway=path</code>) :</h4>
+          </td>
         </tr>
-      </thead>
-      <tbody>
         <tr>
+          <td align="center">
+            <span style="display: inline-block; height: 1em; width: 8em;">
+              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="butt" stroke-dasharray="25,6" stroke="black" stroke-width="3%" />
+              </svg>
+            </span>
+          </td>
           <td><strong>Normal</strong><br>- Traits noirs plus large<br>- Forme allongé<br>- Adouci</td>
-          <td style="text-align: center"><img src="/legende/jpg/Adoucit.jpg" style="width: 90%; max-width: 200px"></td>
         </tr>
         <tr>
-          <td><strong>Accès « non ou privé »</strong><br>- Traits rouge-marron</td>
-          <td style="text-align: center"><img src="/legende/jpg/path-access.jpg" style="width: 90%; max-width: 200px"></td>
+          <td align="center">
+            <span style="display: inline-block; height: 1em; width: 8em;">
+              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="butt" stroke-dasharray="25,6" stroke="#a90601" stroke-width="3%" />
+              </svg>
+            </span>
+          </td>
+          <td><strong>Accès « non ou privé »</strong><br>- Traits rouge-marron<br>- Forme allongé<br>- Adouci </td>
         </tr>
-      </tbody>
-    </table>
+      </table>
+      <br><br>
+      <table>
+        <tr>
+          <td colspan=2 align="center">
+            <h4>Chemin/Chemin agricole/piste forestière (<code>highway=track</code>)</h4>
+          </td>
+        </tr>
+        <tr>
+        <tr>
+          <td colspan=2 align="center">
+            Grades 1 et 2 (<code>tracktype=grade1/grade2</code>)
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <span style="display: inline-block; height: 1em; width: 8em;">
+              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                <line x1="2%" x2="150%" y1="72%" y2="72%" stroke-linecap="butt" stroke-dasharray="25,6" stroke="black" stroke-width="20%" />
+                <rect x="1%" y="30%" width="150%" height="55%" fill="#FFFFFF" />
+              </svg>
+            </span>
+          </td>
+          <td><strong> normal</strong><br>- Trait noir<br>- Trait discontinu sur les côtés</td>
+        </tr>
+        <tr>
+          <td align="center">
+            <span style="display: inline-block; height: 1em; width: 8em;">
+              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                <line x1="2%" x2="150%" y1="72%" y2="72%" stroke-linecap="butt" stroke-dasharray="25,6" stroke="#a90601" stroke-width="20%" />
+                <rect x="1%" y="30%" width="150%" height="55%" fill="#FFFFFF" />
+              </svg>
+            </span>
+          </td>
+          <td>Accès « <strong>non ou privé</strong> »<br>- Traits rouge/marron<br>- Trait discontinu sur les côtés</td>
+        </tr>
+        <tr>
+          <td colspan=2 align="center">
+            Grades 3, 4 et 5 (<code>tracktype=grade3/grade4/grade5</code>)
+          </td>
+        </tr>
+        </tr>
+        <tr>
+          <td align="center">
+            <span style="display: inline-block; height: 1em; width: 8em;">
+              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                <rect x="1%" y="50%" width="150%" height="25%" fill="black" />
+              </svg>
+            </span>
+          </td>
+          <td><strong> normal</strong><br>- Trait noir</td>
+        </tr>
+        <tr>
+          <td align="center">
+            <span style="display: inline-block; height: 1em; width: 8em;">
+              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                <rect x="1%" y="50%" width="150%" height="25%" fill="#a90601" />
+              </svg>
+            </span>
+          </td>
+          <td>Accès « <strong>non ou privé</strong> »<br>- Traits rouge/marron</td>
+        </tr>
+      </table>
+    </div>
     <br>
 
 
@@ -260,54 +331,11 @@
       <li>Non (<code>no</code>) : pointillé très espacés</li>
     </ul>
     <br>
-    <p style="text-align:center;"><a href="/legende/jpg/Légende-FR.jpg"><img src="/legende/jpg/Légende-FR.jpg" style="width: 80%; max-width: 600px"/></a></p><br>
-    <br>
-    <h4>Chemins, pistes agricoles et forestières type IGN</h4>
-    <br>
+    <p style="text-align:center;"><a href="/legende/jpg/Légende-FR.jpg"><img src="/legende/jpg/Légende-FR.jpg" style="width: 80%; max-width: 600px"/></a></p>
 
 
-    <h4>Chemin/Chemin agricole/piste forestière (<code>highway=track</code>) :</h4>
-    <p>Grades 1 et 2 (<code>tracktype=grade1</code>/<code>grade2</code>)</p>
-    <br>
-    <table>
-      <thead>
-        <tr>
-          <th>Légende</th>
-          <th>Apparence</th>
-        </tr>
-      </thead>
-    <tbody>
-        <tr>
-          <td><strong>Normal</strong><br>- Trait blanc plein<br>- Trait discontinu noir sur les côtés</td>
-          <td style="text-align: center;"><img src="/legende/jpg/tracktype-1-2.jpg" style="width: 90%; max-width: 200px"></td>
-        </tr>
-        <tr>
-          <td><strong>Accès « non ou privé »</strong> (<code>acces=private</code>/<code>no</code>)<br>- Traits rouge-marron<br>- Trait discontinu sur les côtés</td>
-          <td style="text-align: center"><img src="/legende/jpg/track-1-2-access.jpg" style="width: 90%; max-width: 200px"></td>
-        </tr>
-      </tbody>
-    </table>
-    <br>
-    <p>Grades 3, 4 et 5 (<code>tracktype=grade3</code>/<code>grade4</code>/<code>grade5</code>)</p>
-    <br>
-    <table>
-      <thead>
-        <tr>
-          <th>Légende</th>
-          <th>Apparence</th>
-        </tr>
-      </thead>
-    <tbody>
-        <tr>
-          <td><strong>Normal</strong><br>- Trait noir plein</td>
-          <td style="text-align: center"><img src="/legende/jpg/tracktype-3-4-5.jpg" style="width: 90%; max-width: 200px"></td>
-        </tr>
-        <tr>
-          <td><strong>Accès « non ou privé »</strong> (<code>acces=private</code>/<code>no</code>)<br>- Traits rouge-marron plein</td>
-          <td style="text-align: center"><img src="/legende/jpg/track-3-4-5-access.jpg" style="width: 90%; max-width: 200px"></td>
-        </tr>
-      </tbody>
-    </table>
+
+    
     <br><br>
     <hr>
 
