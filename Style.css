@@ -107,6 +107,8 @@ a.div-link:hover {
 table {
   margin-left: auto; 
   margin-right: auto;
+  border: 1px solid #6e6e6e;
+  border-radius: 0.3em;
 }
 
 th, td {
