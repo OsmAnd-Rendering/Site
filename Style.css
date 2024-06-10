@@ -6,6 +6,7 @@
   --navbar-text-color: hsl(0, 0%, 85%);
   --navbar-text-color-focus: white;
   --navbar-bg-contrast: hsl(0, 0%, 25%);
+  --bgtabledark: #25282E
 }
 
 body {
@@ -84,7 +85,7 @@ h3 {
 h4 {
   font-size: 1.45;
   line-height: 2.5;
-  text-align: left;
+  border-radius: 0.3em;
   background-color: var(--bg);
   color: var(--text);
 }
@@ -112,8 +113,9 @@ th, td {
   border: 1px solid #6e6e6e;
   border-radius: 0.3em;
   padding: 0.3em;
+  background-color: var(--bgtabledark);
+  color: var(--text);
 }
-
 
 thead {
   font-size: 1.2;
