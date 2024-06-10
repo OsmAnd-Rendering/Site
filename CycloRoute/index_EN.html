@@ -207,128 +207,159 @@
             <h4>Legend of the CyclOSM basemap that we integrated into our style</h4>
             <br>
 
-            <ul>
-            <li>
-                <h4>Cycling infrastructure</h4>
-            </li>
-            </ul>
-
-            <table>
-            <tr>
-                <td><span style="display: inline-block; height: 0.5em; width: 2em; border-top: solid blue 3px; vertical-align: middle;"></span></td>
-                <td>Separated cycle path</td>
-            </tr>
-            <tr>
-                <td><span style="display: inline-block; height: 0.5em; width: 2em; border-top: solid #0050ff 3px; vertical-align: middle;"></span></td>
-                <td>Greenway</td>
-            </tr>
-            <tr>
-                <td>
-                <span style="display: inline-block; height: 1.5em; width: 2em;">
-                    <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                    <line x1="10%" x2="150%" y1="10%" y2="10%" stroke-linecap="butt" stroke="blue" stroke-width="20%" />
-                    <line x1="10%" x2="150%" y1="70%" y2="70%" stroke-linecap="butt" stroke="black" stroke-width="20%" />
-                    <rect x="10%" y="10%" width="140%" height="60%" fill="#ccc" />
-                    </svg>
-                </span>
-                </td>
-                <td>Cycle path on this side of the road</td>
-            </tr>
-            <tr>
-                <td>
-                <span style="display: inline-block; height: 1.5em; width: 2em;">
-                    <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                    <line x1="10%" x2="150%" y1="10%" y2="10%" stroke-linecap="butt" stroke-dasharray="6,3" stroke="blue" stroke-width="20%" />
-                    <line x1="10%" x2="150%" y1="70%" y2="70%" stroke-linecap="butt" stroke="black" stroke-width="20%" />
-                    <rect x="10%" y="10%" width="140%" height="60%" fill="#ccc" />
-                    </svg>
-                </span>
-                </td>
-                <td>Cycle lane on this side of the road</td>
-            </tr>
-            <tr>
-                <td>
-                <span style="display: inline-block; height: 1.5em; width: 2em;">
-                    <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                    <line x1="10%" x2="150%" y1="10%" y2="10%" stroke-linecap="butt" stroke-dasharray="6, 10" stroke="blue" stroke-width="20%" />
-                    <line x1="10%" x2="150%" y1="70%" y2="70%" stroke-linecap="butt" stroke="black" stroke-width="20%" />
-                    <rect x="10%" y="10%" width="140%" height="60%" fill="#ccc" />
-                    </svg>
-                </span>
-                </td>
-                <td>Shared lane (with bus or motor vehicle) on this side of the road <br /> Road shoulder open to bicycles</td>
-            </tr>
-            <tr>
-            </tr>
-            </table>
-            <br>
-        
-            <ul>
-            <li>
-                <h4>Cycle routes</h4>
-            </li>
-            </ul>
-
-            <table>
-            <tr>
-                <td style="width: 2em;"><span style="display: inline-block; height: 1em; width: 2em; background-color: #ff00ff; opacity: 0.5;"></span></td>
-                <td>International cycle route</td>
-            </tr>
-            <tr>
-                <td><span style="display: inline-block; height: 1em; width: 2em; background-color: #aa00ff; opacity: 0.5;"></span></td>
-                <td>National cycle route</td>
-            </tr>
-            <tr>
-                <td><span style="display: inline-block; height: 1em; width: 2em; background-color: #5500ff; opacity: 0.5;"></span></td>
-                <td>Regional cycle route</td>
-            </tr>
-            <tr>
-                <td><span style="display: inline-block; height: 1em; width: 2em; background-color: #0000ff; opacity: 0.5;"></span></td>
-                <td>Local cycle route</td>
-            </tr>
-            <tr>
-                <td><span style="display: inline-block; height: 1em; width: 2em; background-color: #d15000; opacity: 0.5;"></span></td>
-                <td>MTB route</td>
-            </tr>
-            </table>
-            <br>
-        
-            <ul>
-            <li>
-                <h4>Specific bike equipment</h4>
-            </li>
-            </ul>
-
-            <table>
-            <tr>
-                <td><img src="https://www.cyclosm.org/symbols/openstreetmap-carto/amenity/bicycle_repair_station.svg" /></td>
-                <td>Bicycle repair station</td>
-            </tr>
-            <tr>
-                <td><img src="https://www.cyclosm.org/symbols/osmandapp/amenity/compressed_air.svg" /></td>
-                <td>Compressed air</td>
-            </tr>
-            <tr>
-                <td><img src="https://www.cyclosm.org/symbols/shop/convenience_air.svg" /></td>
-                <td>Gas station with compressed air</td>
-            </tr>
-            <tr>
-                <td><span style="display: inline-block; width: 0.5em; height: 0.5em; background-color: blue; border-radius: 50%;"></span></td>
-                <td>Bike parking</td>
-            </tr>
-            <tr>
-                <td><span style="display: inline-block; width: 0.5em; height: 0.5em; background-color: #0050ff; border-radius: 50%;"></span></td>
-                <td>Shared parking for bikes and motorbikes</td>
-            </tr>
-            <tr>
-                <td><img src="https://www.cyclosm.org/symbols/osm-bright-gl-style/amenities/bicycle_rental_11.svg" /></td>
-                <td>Bike rental</td>
-            </tr>
-            <tr>
-                <td><img src="https://www.cyclosm.org/symbols/osm-bright-gl-style/amenities/bicycle_11.svg" /></td>
-                <td>Bike shop</td>
-            </tr>
-            </table>
+            <div class="responsive-columns" style="justify-content: center">
+              <ul>
+            
+                <table>
+                  <tr>
+                    <td colspan=2 align="center">
+                      <h4>Cycling infrastructure</h4>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center"><span style="display: inline-block; height: 0.5em; width: 8em; border-top: solid blue 3px; vertical-align: middle;"></span></td>
+                    <td>Separated cycle path</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><span style="display: inline-block; height: 0.5em; width: 8em; border-top: solid #0050ff 3px; vertical-align: middle;"></span></td>
+                    <td>Greenway</td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <span style="display: inline-block; height: 1.5em; width: 8em;">
+                        <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                          <line x1="1%" x2="150%" y1="10%" y2="10%" stroke-linecap="butt" stroke="blue" stroke-width="20%" />
+                          <line x1="1%" x2="150%" y1="50%" y2="50%" stroke-linecap="butt" stroke="black" stroke-width="20%" />
+                          <rect x="1%" y="10%" width="140%" height="60%" fill="#ccc" />
+                        </svg>
+                      </span>
+                    </td>
+                    <td>Cycle path on this side of the road</td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <span style="display: inline-block; height: 1.5em; width: 8em;">
+                        <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                          <line x1="1%" x2="150%" y1="10%" y2="10%" stroke-linecap="butt" stroke-dasharray="6,3" stroke="blue" stroke-width="20%" />
+                          <line x1="1%" x2="150%" y1="50%" y2="50%" stroke-linecap="butt" stroke="black" stroke-width="20%" />
+                          <rect x="1%" y="10%" width="140%" height="60%" fill="#ccc" />
+                        </svg>
+                      </span>
+                    </td>
+                    <td>Cycle lane on this side of the road</td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <span style="display: inline-block; height: 1.5em; width: 8em;">
+                        <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                          <line x1="1%" x2="150%" y1="10%" y2="10%" stroke-linecap="butt" stroke-dasharray="6,10" stroke="blue" stroke-width="20%" />
+                          <line x1="1%" x2="150%" y1="50%" y2="50%" stroke-linecap="butt" stroke="black" stroke-width="20%" />
+                          <rect x="1%" y="10%" width="140%" height="60%" fill="#ccc" />
+                        </svg>
+                      </span>
+                    </td>
+                    <td>Shared lane (with bus or motor vehicle) on this side of the road <br /> Road shoulder open to bicycles</td>
+                  </tr>
+                  <tr>
+                  </tr>
+                </table>
+                <br>
+            
+                <table>
+                  <tr>
+                    <td colspan=2 align="center">
+                      <h4>Cycle routes</h4>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <span style="display: inline-block; height: 1.5em; width: 8em;">
+                        <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                          <line x1="1%" x2="150%" y1="70%" y2="70%" stroke-linecap="butt" stroke="#ff00ff" opacity="0.5" stroke-width="20%" />
+                        </svg>
+                      </span>
+                    </td>
+                    <td>International cycle route</td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <span style="display: inline-block; height: 1.5em; width: 8em;">
+                        <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                          <line x1="1%" x2="150%" y1="70%" y2="70%" stroke-linecap="butt" stroke="#aa00ff" opacity="0.5" stroke-width="20%" />
+                        </svg>
+                      </span>
+                    </td>
+                    <td>National cycle route</td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <span style="display: inline-block; height: 1.5em; width: 8em;">
+                        <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                          <line x1="1%" x2="150%" y1="70%" y2="70%" stroke-linecap="butt" stroke="#5500ff" opacity="0.5" stroke-width="20%" />
+                        </svg>
+                      </span>
+                    </td>
+                    <td>Regional cycle route</td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <span style="display: inline-block; height: 1.5em; width: 8em;">
+                        <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                          <line x1="1%" x2="150%" y1="70%" y2="70%" stroke-linecap="butt" stroke="#0000ff" opacity="0.5" stroke-width="20%" />
+                        </svg>
+                      </span>
+                    </td>
+                    <td>Local cycle route</td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <span style="display: inline-block; height: 1.5em; width: 8em;">
+                        <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                          <line x1="1%" x2="150%" y1="70%" y2="70%" stroke-linecap="butt" stroke="#d15000" opacity="0.5" stroke-width="20%" />
+                        </svg>
+                      </span>
+                    </td>
+                    <td>MTB route</td>
+                  </tr>
+                </table>
+                <br>
+            
+                <table>
+                  <tr>
+                    <td colspan=2 align="center">
+                      <h4>Specific bike equipment</h4>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center"><img src="https://www.cyclosm.org/symbols/openstreetmap-carto/amenity/bicycle_repair_station.svg" width="30px" /></td>
+                    <td>Bicycle repair station</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><img src="https://www.cyclosm.org/symbols/osmandapp/amenity/compressed_air.svg" width="30px" /></td>
+                    <td>Compressed air</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><img src="https://www.cyclosm.org/symbols/shop/convenience_air.svg" width="30px" /></td>
+                    <td>Gas station with compressed air</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><span style="display: inline-block; width: 1em; height: 1em; background-color: #0050ff; border-radius: 50%;"></span></td>
+                    <td>Bike parking</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><span style="display: inline-block; width: 1em; height: 1em; background-color: #0050ff; border-radius: 50%;"></span></td>
+                    <td>Shared parking for bikes and motorbikes</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><img src="https://www.cyclosm.org/symbols/osm-bright-gl-style/amenities/bicycle_rental_11.svg" width="30px" /></td>
+                    <td>Bike rental</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><img src="https://www.cyclosm.org/symbols/osm-bright-gl-style/amenities/bicycle_11.svg" width="30px" /></td>
+                    <td>Bike shop</td>
+                  </tr>
+                </table>
+            </div>
 
             <br><br>
             <hr>
