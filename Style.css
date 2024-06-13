@@ -8,6 +8,14 @@
   --navbar-bg-contrast: hsl(0, 0%, 25%);
 }
 
+/* Sac_Scale
+--hikingT1: #7d5c46;
+--hikingT2: #2d14fd;
+--hikingT3: #FF00F5;
+--hikingT4: #ac19ff;
+--hikingT5: #00cdcd;
+--hikingT6: #FF7F00;*/
+
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: var(--bg);
