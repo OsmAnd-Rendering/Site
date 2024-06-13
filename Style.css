@@ -153,7 +153,7 @@ a:visited {
 
 
 ul{
-  padding-left: 3em;
+  padding-left: 2em;
 }
 
 div.sticky {
@@ -401,8 +401,6 @@ div, button {
 /* columns */
 .responsive-columns > * {
   width: 100%;
-  padding: 0.2rem;
-  border: 1px solid #6e6e6e;
   border-radius: 0.3em;
   align-items: center;
   justify-content: center;
@@ -413,7 +411,6 @@ div, button {
   .responsive-columns > * {
     align-items: center;
     justify-content: center;
-    border: 1px solid #6e6e6e;
     border-radius: 0.3em;
     width: auto;
   }
