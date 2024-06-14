@@ -10,351 +10,23 @@
   <body>
   <!-- Main -->
   <main>
-    <article></article>
-    <div style="justify-content: center; overflow-x:auto;">
-      <table>
-        <tr>
-          <td colspan="8" align="center">
-            <h4>Chemin/Chemin agricole/piste forestière type IGN (<code>highway=track</code>)</h4>
-          </td>
-        </tr>
-        <tr align="center">
-          <td colspan="2" align="center"></td>
-          <td colspan="3" align="center">Grades 1 et 2 (<code>tracktype=grade1/grade2</code>)</td>
-          <td colspan="3" align="center">Grades 3, 4 et 5 (<code>tracktype=grade3/grade4/grade5</code>)</td>
-        </tr>
-        <tr>
-          <td colspan="2">Normal</td>
-          <td colspan="3" align="center">
-            <span style="display: inline-block; height: 1.2em; width: 20em;">
-              <svg width="100%" height="70%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="100%" y1="1%" y2="1%" stroke-linecap="butt" stroke-dasharray="20,8" stroke="black" stroke-width="60%" />
-                <rect x="1%" y="20%" width="150%" height="60%" fill="#FFFFFF" />
-              </svg>
-            </span>
-          </td>
-          <td colspan="3" align="center">
-            <span style="display: inline-block; height: 1em; width: 20em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" solid stroke="black" stroke-width="2.7%" />
-              </svg>
-          </td>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">Accès « <strong>non ou privé</strong> »</td>
-          <td colspan="3" align="center">
-            <span style="display: inline-block; height: 1.2em; width: 20em;">
-              <svg width="100%" height="70%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1.5%" x2="100%" y1="1%" y2="1%" stroke-linecap="butt" stroke-dasharray="20,8" stroke="#dd0e0e" stroke-width="60%" />
-                <rect x="1%" y="20%" width="150%" height="60%" fill="#FFFFFF" />
-              </svg>
-            </span>
-          </td>
-          <td colspan="3" align="center">
-            <span style="display: inline-block; height: 1em; width: 20em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" solid stroke="#dd0e0e" stroke-width="2.7%" />
-              </svg>
-            </span>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="8" align="center">
-            <h4>Sentiers type IGN (<code>highway=path</code>)</h4>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">Normal</td>
-          <td colspan="6" align="center">
-            <span style="display: inline-block; height: 1em; width: 30em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="20,6" stroke="#7d5c46" stroke-width="1%" />
-              </svg>
-            </span>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">Accès « <strong>non ou privé</strong> »</td>
-          <td colspan="6" align="center">
-            <span style="display: inline-block; height: 1em; width: 30em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="20,6" stroke="#dd0e0e" stroke-width="1%" />
-              </svg>
-            </span>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="8" align="center">
-            <h4>Difficulté et visibilité des sentiers (<code>sac_scale=* & trail_visibility=*</code>)</h4>
-          </td>
-        </tr>
-        <tr align="center">
-          <td> Visibilité du sentier<img src="/icon/arrow/arrow_down.svg" width="20px" style="display: flex; align-items: center;" id="arrow_down" alt="arrow_down" title="arrow_down"></td>
-          <td> Échelle CAS<br><img src="/icon/arrow/arrow_right.svg" width="20px" style="display: flex; align-items: center;" id="arrow_right" alt="arrow_right" title="arrow_right"></td>
-          <td> T1 </td>
-          <td> T2 </td>
-          <td> T3 </td>
-          <td> T4 </td>
-          <td> T5 </td>
-          <td> T6 </td>
-        </tr>
-        <tr>
-          <td colspan=2> Non </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,20" stroke="#7d5c46" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,20" stroke="#2d14fd" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,20" stroke="#FF00F5" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,20" stroke="#ac19ff" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,20" stroke="#00cdcd" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,20" stroke="#FF7F00" stroke-width="3.5%" />
-              </svg>
-            </span>
-            
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2"> Horrible </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,12" stroke="#7d5c46" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,12" stroke="#2d14fd" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,12" stroke="#FF00F5" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,12" stroke="#ac19ff" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,12" stroke="#00cdcd" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,12" stroke="#FF7F00" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2"> Mauvaise </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,7" stroke="#7d5c46" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,7" stroke="#2d14fd" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,7" stroke="#FF00F5" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,7" stroke="#ac19ff" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,7" stroke="#00cdcd" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,7" stroke="#FF7F00" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">Intermédiaire/Bonne/Excellente<br>
-            <font color="#a90601">Visibilité désactivée</font>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="20,7" stroke="#7d5c46" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="20,7" stroke="#2d14fd" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="20,7" stroke="#FF00F5" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="20,7" stroke="#ac19ff" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="20,7" stroke="#00cdcd" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="20,7" stroke="#FF7F00" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">Visibilité<br>
-            <font color="#a90601">CAS désactivée</font>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,7" stroke="#7d5c46" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,7" stroke="#7d5c46" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,12" stroke="#7d5c46" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,12" stroke="#7d5c46" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,20" stroke="#7d5c46" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-          <td align="center">
-            <span style="display: inline-block; height: 1em; width: 8em;">
-              <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="1,20" stroke="#7d5c46" stroke-width="3.5%" />
-              </svg>
-            </span>
-          </td>
-        </tr>
-      </table>
-    </div>
-
-
-
-
+    <article>
     <h1>Vertical</h1>
 
-
-
-
-
+    
+    
+    
+    
     <div style="justify-content: center">
       <table>
         <tr>
           <td colspan="5" align="center">
-            <h4>Chemin/Chemin agricole/piste forestière type IGN <br>(<code>highway=track</code>)</h4>
+            <h4>Chemin/Chemin agricole/piste forestière type IGN (<code>highway=track</code>)</h4>
           </td>
         </tr>
         <tr align="center">
-          <td colspan="1" align="center"></td>
-          <td colspan="2" align="center">Grades 1 et 2 </td>
-          <td colspan="2" align="center">Grades 3, 4 et 5</td>
-        </tr>
-        <tr>
-          <td colspan="1">Normal</td>
+          <td rowspan="2" colspan="1" align="center">Grades 1 et 2</td>
+          <td colspan="2" align="center">Normal</td>
           <td colspan="2" align="center">
             <span style="display: inline-block; height: 1.2em; width: 10em;">
               <svg width="100%" height="70%" xmlns="https://www.w3.org/2000/svg" version="1.1">
@@ -363,24 +35,28 @@
               </svg>
             </span>
           </td>
+        </tr>
+        <td colspan="2" align="center">Accès: « <strong>non ou privé</strong> »</td>
+        <td colspan="2" align="center">
+          <span style="display: inline-block; height: 1.2em; width: 10em;">
+            <svg width="100%" height="70%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+              <line x1="1.5%" x2="100%" y1="1%" y2="1%" stroke-linecap="butt" stroke-dasharray="20,8" stroke="#dd0e0e" stroke-width="60%" />
+              <rect x="1%" y="20%" width="150%" height="60%" fill="#FFFFFF" />
+            </svg>
+          </span>
+        </td>
+        </tr>
+        <tr>
+          <td rowspan="2" colspan="1" align="center">Grades 3, 4 et 5</td>
+          <td colspan="2" align="center">Normal</td>
           <td colspan="2" align="center">
             <span style="display: inline-block; height: 1em; width: 10em;">
               <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
                 <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" solid stroke="black" stroke-width="2.7%" />
               </svg>
           </td>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="1">Accès:<br>« <strong>non ou privé</strong> »</td>
-          <td colspan="2" align="center">
-            <span style="display: inline-block; height: 1.2em; width: 10em;">
-              <svg width="100%" height="70%" xmlns="https://www.w3.org/2000/svg" version="1.1">
-                <line x1="1.5%" x2="100%" y1="1%" y2="1%" stroke-linecap="butt" stroke-dasharray="20,8" stroke="#dd0e0e" stroke-width="60%" />
-                <rect x="1%" y="20%" width="150%" height="60%" fill="#FFFFFF" />
-              </svg>
-            </span>
-          </td>
+        <tr align="center">
+          <td colspan="2">Accès: « <strong>non ou privé</strong> »</td>
           <td colspan="2" align="center">
             <span style="display: inline-block; height: 1em; width: 10em;">
               <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
@@ -391,13 +67,40 @@
         </tr>
         <tr>
           <td colspan="5" align="center">
-            <h4>Sentiers type IGN<br> (<code>highway=path</code>)</h4>
+            <h5>Other color and form of track</h5>
+          </td>
+        </tr>
+        <tr align="center">
+          <td rowspan="2" colspan="1" align="center">Grades 3, 4 et 5</td>
+          <td colspan="2" align="center">Normal</td>
+          <td colspan="2" align="center">
+            <span style="display: inline-block; height: 1.2em; width: 10em;">
+              <svg width="100%" height="70%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+                <line x1="1%" x2="100%" y1="1%" y2="1%" stroke-linecap="butt" stroke-dasharray="20,8" stroke="black" stroke-width="60%" />
+                <rect x="1%" y="20%" width="150%" height="60%" fill="#d0c0af" />
+              </svg>
+            </span>
+          </td>
+        </tr>
+        <td colspan="2" align="center">Accès: « <strong>non ou privé</strong> »</td>
+        <td colspan="2" align="center">
+          <span style="display: inline-block; height: 1.2em; width: 10em;">
+            <svg width="100%" height="70%" xmlns="https://www.w3.org/2000/svg" version="1.1">
+              <line x1="1.5%" x2="100%" y1="1%" y2="1%" stroke-linecap="butt" stroke-dasharray="20,8" stroke="#dd0e0e" stroke-width="60%" />
+              <rect x="1%" y="20%" width="150%" height="60%" fill="#d0c0af" />
+            </svg>
+          </span>
+        </td>
+        </tr>
+        <tr>
+          <td colspan="5" align="center">
+            <h4>Sentiers type IGN (<code>highway=path</code>)</h4>
           </td>
         </tr>
         <tr>
-          <td colspan="1">Normal</td>
-          <td colspan="4" align="center">
-            <span style="display: inline-block; height: 1em; width: 11.2em;">
+          <td colspan="3" align="center">Normal</td>
+          <td colspan="2" align="center">
+            <span style="display: inline-block; height: 1em; width: 10em;">
               <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
                 <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="20,6" stroke="#7d5c46" stroke-width="2.5%" />
               </svg>
@@ -405,9 +108,9 @@
           </td>
         </tr>
         <tr>
-          <td colspan="1">Accès:<br>« <strong>non ou privé</strong> »</td>
-          <td colspan="4" align="center">
-            <span style="display: inline-block; height: 1em; width: 11.2em;">
+          <td colspan="3" align="center">Accès: « <strong>non ou privé</strong> »</td>
+          <td colspan="2" align="center">
+            <span style="display: inline-block; height: 1em; width: 10em;">
               <svg width="100%" height="100%" xmlns="https://www.w3.org/2000/svg" version="1.1">
                 <line x1="1%" x2="150%" y1="60%" y2="60%" stroke-linecap="round" stroke-dasharray="20,6" stroke="#dd0e0e" stroke-width="2.5%" />
               </svg>
@@ -416,7 +119,7 @@
         </tr>
         <tr>
           <td colspan="5" align="center">
-            <h4>Difficulté et visibilité des sentiers<br> (<code>sac_scale=* & trail_visibility=*</code>)</h4>
+            <h4>Difficulté et visibilité des sentiers (<code>sac_scale=* & trail_visibility=*</code>)</h4>
           </td>
         </tr>
         <tr>
@@ -461,7 +164,6 @@
               </svg>
             </span>
           </td>
-
         </tr>
         <tr>
           <td align="center"> T2 </td>
@@ -557,7 +259,6 @@
           </td>
         </tr>
         <tr>
-
           <td align="center">T5</td>
           <td align="center">
             <span style="display: inline-block; height: 1em; width: 6.5em;">
@@ -621,7 +322,7 @@
         </tr>
         <tr align="center">
           <td align="center">
-            <font color="#a90601">CAS désactivée</font>
+            <font color="#a90601">CAS Off</font>
           </td>
           <td align="center">
             <span style="display: inline-block; height: 1em; width: 6.5em;">
@@ -654,15 +355,6 @@
         </tr>
       </table>
     </div>
-
-
-
-
-
-
-
-
-
 
   </article>
   </main>
