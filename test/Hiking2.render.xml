@@ -2,7 +2,7 @@
 
 	<!--Thanks to the Randonner leger (RL) community (Bombadyl, stéfanne_33, walker75, moby59, Divad, Opitux, Eloi, gergy, Phil82, Joy Supertramp, Pif) as well as to the OSM and OsmAnd community (alexis Lecanu, pyrog39, StC, Nicolas Cornu, Antonin Curtit). Special thanks to Olivier_d who tested again and again my additions and modifications as well as his proposals for improvements. Louis-->
 
-	<renderingProperty attr="appMode" name="Rendering mode" description="Map optimization for respective User Profile" type="string" possibleValues="pedestrian"/>
+		<renderingProperty attr="appMode" name="Rendering mode" description="Map optimization for respective User Profile" type="string" possibleValues="pedestrian"/>
 	<renderingProperty attr="baseAppMode" name="Default Rendering mode" description="Map optimization for respective User Profile based on base (parent) profile" type="string" possibleValues="pedestrian"/>
 	<renderingProperty attr="contourLines" name="Show contour lines" description="Select minimum zoom level to display in map if available. Separate contour file may be needed." type="string" possibleValues="disabled,16,15,14,13,12,11" defaultValueDescription="default13" category="details"/>
 	<renderingProperty attr="alpineHiking" name="Alpine hiking view" description="Render paths according to SAC scale" type="boolean" possibleValues="" category="routes"/>
@@ -1847,12 +1847,13 @@
 				</case>
 				<case tag="osmand_rungs" value="yes"/>
 				<case tag="ladder" value="yes" order="63"/>
-				<case tag="route_bicycle" value="" order="186"/>
-				<case tag="route_mtb" value="" order="187"/>
-				<case tag="network_iwn" value="" order="192"/>
-				<case tag="network_nwn" value="" order="193"/>
-				<case tag="network_rwn" value="" order="194"/>
-				<case tag="network_lwn" value="" order="195"/>
+				<case tag="route_bicycle" value="" order="17"/>
+				<case tag="route_mtb" value="" order="16"/>
+				<case tag="network_iwn" value="" order="15"/>
+				<case tag="network_nwn" value="" order="14"/>
+				<case tag="network_rwn" value="" order="13"/>
+				<case tag="network_lwn" value="" order="12"/>
+				<case tag="route_hiking" value="" order="12"/>
 				<switch baseAppMode="bicycle">
 					<case tag="cycleway" value=""/>
 					<case tag="cycleway:both" value=""/>
@@ -1884,14 +1885,14 @@
 				</case>
 			</switch>
 			<switch>
-				<case tag="lcn_ref" value="" order="197"/>
-				<case tag="rcn_ref" value="" order="198"/>
-				<case tag="ncn_ref" value="" order="199"/>
-				<case tag="icn_ref" value="" order="200"/>
-				<case tag="lwn_ref" value="" order="201"/>
-				<case tag="rwn_ref" value="" order="202"/>
-				<case tag="nwn_ref" value="" order="203"/>
-				<case tag="iwn_ref" value="" order="204"/>
+				<case tag="lcn_ref" value="" order="11"/>
+				<case tag="rcn_ref" value="" order="12"/>
+				<case tag="ncn_ref" value="" order="13"/>
+				<case tag="icn_ref" value="" order="14"/>
+				<case tag="lwn_ref" value="" order="15"/>
+				<case tag="rwn_ref" value="" order="16"/>
+				<case tag="nwn_ref" value="" order="17"/>
+				<case tag="iwn_ref" value="" order="18"/>
 				<apply_if point="true" objectType="1" order="100"/>
 			</switch>
 			<case tag="fixme_tag" value="yes" order="12"/>
