@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g class="layer">
+  <title>Layer 1</title>
+  <path clip-rule="evenodd" d="m20,12c0,-4.44 -3.59,-8 -8,-8c-4.41,0 -8,3.56 -8,8c0,4.41 3.59,8 8,8c4.41,0 8,-3.59 8,-8zm1,0c0,-5 -4.04,-9 -9,-9c-4.96,0 -9,4 -9,9c0,4.96 4.04,9 9,9c4.96,0 9,-4.04 9,-9z" fill="black" fill-rule="evenodd" id="svg_1" opacity="0.85"/>
+  <path d="m12,4c4.41,0 8,3.56 8,8c0,4.41 -3.59,8 -8,8c-4.41,0 -8,-3.59 -8,-8c0,-4.44 3.59,-8 8,-8l0,0z" fill="white" id="svg_2" opacity="0.85"/>
+  <use id="svg_18" transform="matrix(0.971246 0 0 0.971702 6.17252 6.16979)" x="0" xlink:href="#svg_17" y="0"/>
+ </g>
+ <defs>
+  <symbol height="12" id="svg_17" version="1.1" viewBox="0 0 48 48" width="12" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg">
+   <metadata id="svg_16">image/svg+xml</metadata>
+
+   <path clip-rule="nonzero" d="m37.97,36.02a2,2 0 0 0 -1.97,2.03l0,3.95a2,2 0 1 0 4,0l0,-3.95a2,2 0 0 0 -2.03,-2.03z" display="inline" enable-background="accumulate" fill="#000000" fill-rule="evenodd" id="svg_14" stroke-dashoffset="0" stroke-miterlimit="4"/>
+   <path clip-rule="nonzero" d="m9.97,36a2,2 0 0 0 -1.97,2.03l0,3.94a2,2 0 1 0 4,0l0,-3.94a2,2 0 0 0 -2.03,-2.03z" display="inline" enable-background="accumulate" fill="#000000" fill-rule="evenodd" id="svg_13" stroke-dashoffset="0" stroke-miterlimit="4"/>
+   <path clip-rule="nonzero" d="m6,4a2,2 0 0 0 -2,2l0,32a2,2 0 0 0 2,2l36,0a2,2 0 0 0 2,-2l0,-32a2,2 0 0 0 -2,-2l-36,0zm2,4l32,0l0,28l-32,0l0,-28z" display="inline" enable-background="accumulate" fill="#000000" fill-rule="nonzero" id="svg_12" stroke-dashoffset="0" stroke-miterlimit="4"/>
+   <path clip-rule="nonzero" d="m22,18l0,14l4,0l0,-14l-4,0z" display="inline" enable-background="accumulate" fill="#000000" fill-rule="evenodd" id="svg_11" stroke-dashoffset="0" stroke-miterlimit="4"/>
+   <path clip-rule="nonzero" d="m26,14a2,2 0 0 1 -2,2a2,2 0 0 1 -2,-2a2,2 0 0 1 2,-2a2,2 0 0 1 2,2z" display="inline" enable-background="accumulate" fill="#000000" fill-rule="nonzero" id="svg_10" stroke-dashoffset="0" stroke-miterlimit="4"/>
+   <path clip-rule="nonzero" d="m19,30a1,1 0 1 0 0,2l10,0a1,1 0 1 0 0,-2l-10,0z" display="inline" enable-background="accumulate" fill="#000000" fill-rule="evenodd" id="svg_9" stroke-dashoffset="0" stroke-miterlimit="4"/>
+   <path clip-rule="nonzero" d="m21.01,20a1,1 0 1 0 0,2l3.99,0a1,1 0 1 0 0,-2l-3.99,0z" display="inline" enable-background="accumulate" fill="#000000" fill-rule="evenodd" id="svg_8" stroke-dashoffset="0" stroke-miterlimit="4"/>
+  </symbol>
+ </defs>
+</svg>
