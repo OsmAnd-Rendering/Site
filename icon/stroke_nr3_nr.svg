@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#000000" fill-opacity="0" height="63.01" id="svg_10" stroke="#4a9f5a" stroke-dasharray="5" transform="matrix(1 0 0 1 0 0)" width="62.97" x="0.51" y="0.52"/>
+  <path d="m4,27l1,0l3,3.5l0,-3.5l1,0l0,5l-1,0l-3,-3.5l0,3.5l-1,0l0,-5z" fill="#00AE3D" fill-opacity="0.25" id="svg_1"/>
+  <path clip-rule="evenodd" d="m13.5,27l-3.5,0l0,5l1.01,0l-0.01,-2l2,2l1,0l0,-0.5l-1.5,-1.5l1,0l0.5,-0.5l0,-2l-0.5,-0.5zm-0.51,2l-1.98,0l0,-1l1.98,0l0,1z" fill="#00AE3D" fill-opacity="0.25" fill-rule="evenodd" id="svg_2"/>
+  <path d="m36,27l-1,0l0,5l1,0l0,-3.5l3,3.5l1,0l0,-5l-1,0l0,3.5l-3,-3.5z" fill="#00AE3D" fill-opacity="0.25" id="svg_3"/>
+  <path clip-rule="evenodd" d="m41,27l3.5,0l0.5,0.5l0,2l-0.5,0.5l-1,0l1.5,1.5l0,0.5l-1,0l-2,-2l0.01,2l-1.01,0l0,-5zm1.01,2l1.98,0l0,-1l-1.98,0l0,1z" fill="#00AE3D" fill-opacity="0.25" fill-rule="evenodd" id="svg_4" transform="matrix(1 0 0 1 0 0)"/>
+  <path d="m54,58l-1,0l0,5l1,0l0,-3.5l3,3.5l1,0l0,-5l-1,0l0,3.5l-3,-3.5z" fill="#00AE3D" fill-opacity="0.25" id="svg_5"/>
+  <path clip-rule="evenodd" d="m59,58l3.5,0l0.5,0.5l0,2l-0.5,0.5l-1,0l1.5,1.5l0,0.5l-1,0l-2,-2l0.01,2l-1.01,0l0,-5zm1.01,2l1.98,0l0,-1l-1.98,0l0,1z" fill="#00AE3D" fill-opacity="0.25" fill-rule="evenodd" id="svg_6"/>
+  <path d="m23,58l-1,0l0,5l1,0l0,-3.5l3,3.5l1,0l0,-5l-1,0l0,3.5l-3,-3.5z" fill="#00AE3D" fill-opacity="0.25" id="svg_7"/>
+  <path clip-rule="evenodd" d="m28,58l3.5,0l0.5,0.5l0,2l-0.5,0.5l-1,0l1.5,1.5l0,0.5l-1,0l-2,-2l0.01,2l-1.01,0l0,-5zm1.01,2l1.98,0l0,-1l-1.98,0l0,1z" fill="#00AE3D" fill-opacity="0.25" fill-rule="evenodd" id="svg_8"/>
+ </g>
+</svg>
