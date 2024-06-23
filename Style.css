@@ -26,6 +26,8 @@ body {
   :root {
     --text: #dddddd;
     --bg: #161d27;
+    --navbar-bg-color: #dddddd;
+    --navbar-text-color: #161d27;
 /*    --bgtabledark: #25282E;*/
   }
 }
@@ -70,7 +72,7 @@ footer {
 h1 {
   font-size: 4rem;
   text-align: center;
-  color: white;
+  color: var(--text);
   text-shadow: 2px 2px 10px black;
 }
 
@@ -404,7 +406,7 @@ justify-content: center;
 
 div, button {
   font-family: 'Segoe UI', sans-serif;
-  color: #dddddd;
+  color: var(--text);
 }
 
 
