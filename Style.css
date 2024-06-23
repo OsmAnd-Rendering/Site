@@ -2,8 +2,8 @@
   color-scheme: light dark; /* both supported */
   --text: #161d27;
   --bg: #dddddd;
-  --navbar-bg-color: hsl(0, 0%, 15%);
-  --navbar-text-color: hsl(0, 0%, 85%);
+  --navbar-bg-color: #161d27;
+  --navbar-text-color: #dddddd;
   --navbar-text-color-focus: white;
   --navbar-bg-contrast: hsl(0, 0%, 25%);
 }
