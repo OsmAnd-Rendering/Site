@@ -425,3 +425,21 @@ div, button {
     width: auto;
   }
 }
+
+/* container */
+.responsive-two-columns {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+/* columns */
+.responsive-two-columns > * {
+  width:100%;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+  .responsive-two-columns > * {
+      width:50%;
+  }
+}
