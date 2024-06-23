@@ -443,3 +443,21 @@ div, button {
       width:50%;
   }
 }
+
+/* container */
+.responsive-three-columns {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+/* columns */
+.responsive-three-columns > * {
+  width:100%;
+}
+
+/* tablet breakpoint */
+@media (min-width:850px) {
+  .responsive-three-columns > * {
+      width:calc(100% / 3);
+  }
+}
