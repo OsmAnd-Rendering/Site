@@ -2,8 +2,8 @@
   color-scheme: light dark; /* both supported */
   --text: #161d27;
   --bg: #dddddd;
-  --navbar-bg-color: #161d27;
-  --navbar-text-color: #dddddd;
+  --navbar-bg-color: #dddddd;
+  --navbar-text-color: #161d27;
   --navbar-text-color-focus: white;
   --navbar-bg-contrast: hsl(0, 0%, 25%);
 }
@@ -26,8 +26,8 @@ body {
   :root {
     --text: #dddddd;
     --bg: #161d27;
-    --navbar-bg-color: #dddddd;
-    --navbar-text-color: #161d27;
+    --navbar-bg-color: #161d27;
+    --navbar-text-color: #dddddd;
 /*    --bgtabledark: #25282E;*/
   }
 }
