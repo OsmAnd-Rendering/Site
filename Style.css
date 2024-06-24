@@ -107,10 +107,11 @@ p, li, span, th {
 }
 
 a.div-link:hover {
-  border: 1px solid #ff8800;
-  border-radius: 10px;
-  padding: 5px;
-  margin: 0 auto;
+  border: 2px solid #ff8800;
+  padding: 0.7%;
+  border-radius: 50px;
+  color: white;
+  transition-duration: 0.2s;
 }
 
 /*  Table*/
