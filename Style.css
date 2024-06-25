@@ -108,9 +108,14 @@ p, li, span, th {
 
 a.div-link:hover {
   border: 2px solid #ff8800;
-  padding: 0.7%;
+  padding: 0px 10px;
   border-radius: 50px;
-  color: white;
+  color: #ff8800;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+  line-height: 2;
   transition-duration: 0.2s;
 }
 
