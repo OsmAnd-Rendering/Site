@@ -1,9 +1,9 @@
 :root {
   color-scheme: light dark; /* both supported */
-  --text: #161d27;
-  --bg: #dddddd;
-  --navbar-text-color: #161d27;
-  --navbar-bg-color: #dddddd;
+  --text: #545454;
+  --bg: #3eeea;
+  --navbar-text-color: #545454;
+  --navbar-bg-color: #3eeea;
   --navbar-text-color-focus: white;
   --navbar-bg-contrast: hsl(0, 0%, 25%);
 }
@@ -16,10 +16,10 @@ body {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #dddddd;
-    --bg: #161d27;
-    --navbar-text-color: #dddddd;
-    --navbar-bg-color: #161d27;
+    --text: #3eeea;
+    --bg: #545454;
+    --navbar-text-color: #3eeea;
+    --navbar-bg-color: #545454;
 /*    --bgtabledark: #25282E;*/
   }
 }
