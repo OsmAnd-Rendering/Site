@@ -1,8 +1,8 @@
 :root {
   color-scheme: light dark; /* both supported */
-  --text: #545454;
+  --text: #3c3c3c;
   --bg: #3eeea;
-  --navbar-text-color: #545454;
+  --navbar-text-color: #3c3c3c;
   --navbar-bg-color: #3eeea;
   --navbar-text-color-focus: white;
   --navbar-bg-contrast: hsl(0, 0%, 25%);
@@ -19,7 +19,7 @@ body {
     --text: #3eeea;
     --bg: #545454;
     --navbar-text-color: #3eeea;
-    --navbar-bg-color: #545454;
+    --navbar-bg-color: #3c3c3c;
 /*    --bgtabledark: #25282E;*/
   }
 }
