@@ -1,9 +1,9 @@
 :root {
   color-scheme: light dark; /* both supported */
   --text: #3c3c3c;
-  --bg: #3eeea;
+  --bg: #f3eeea;
   --navbar-text-color: #3c3c3c;
-  --navbar-bg-color: #3eeea;
+  --navbar-bg-color: #f3eeea;
   --navbar-text-color-focus: white;
   --navbar-bg-contrast: hsl(0, 0%, 25%);
 }
@@ -16,9 +16,9 @@ body {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #3eeea;
+    --text: #f3eeea;
     --bg: #3c3c3c;
-    --navbar-text-color: #3eeea;
+    --navbar-text-color: #f3eeea;
     --navbar-bg-color: #333333;
 /*    --bgtabledark: #25282E;*/
   }
