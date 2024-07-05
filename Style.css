@@ -17,9 +17,9 @@ body {
 @media (prefers-color-scheme: dark) {
   :root {
     --text: #3eeea;
-    --bg: #545454;
+    --bg: #3c3c3c;
     --navbar-text-color: #3eeea;
-    --navbar-bg-color: #3c3c3c;
+    --navbar-bg-color: #333333;
 /*    --bgtabledark: #25282E;*/
   }
 }
