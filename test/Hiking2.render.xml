@@ -1,6 +1,6 @@
 <renderingStyle name="Hiking2" depends="" defaultColor="#ffffff" version="1">
 
-	<!--Thanks to the Randonner leger (RL) community (Bombadyl, stéfanne_33, walker75, moby59, Divad, Opitux, Eloi, gergy, Phil82, Joy Supertramp, Pif) as well as to the OSM and OsmAnd community (alexis Lecanu, pyrog39, StC, Nicolas Cornu, Antonin Curtit). Special thanks to Olivier_d who tested again and again my additions and modifications as well as his proposals for improvements. Louis-->
+	<!--Thanks to the Randonner leger (RL) community (Bombadyl, stéfanne_33, walker75, moby59, Divad, Opitux, Eloi, gergy, Phil82, Joy Supertramp, Pif) as well as to the OSM and OsmAnd community (alexis Lecanu, pyrog39, StC, Nicolas Cornu, Antonin Del Fabbro). Special thanks to Olivier_d who tested again and again my additions and modifications as well as his proposals for improvements. Louis-->
 
 		<renderingProperty attr="appMode" name="Rendering mode" description="Map optimization for respective User Profile" type="string" possibleValues="pedestrian"/>
 	<renderingProperty attr="baseAppMode" name="Default Rendering mode" description="Map optimization for respective User Profile based on base (parent) profile" type="string" possibleValues="pedestrian"/>
