@@ -1,5 +1,5 @@
 <renderingStyle name="enfantconstantok" depends="default" defaultColor="#ffffff" version="1">
-	<!--Thanks to the Randonner leger (RL) community (Bombadyl, stéfanne_33, walker75, moby59, Divad, Opitux, Eloi, gergy, Phil82, Joy Supertramp, Pif) as well as to the OSM and OsmAnd community (alexis Lecanu, pyrog39, StC, Nicolas Cornu, Antonin Curtit). Special thanks to Olivier_d who tested again and again my additions and modifications as well as his proposals for improvements. -->
+	<!--Thanks to the Randonner leger (RL) community (Bombadyl, stéfanne_33, walker75, moby59, Divad, Opitux, Eloi, gergy, Phil82, Joy Supertramp, Pif) as well as to the OSM and OsmAnd community (alexis Lecanu, pyrog39, StC, Nicolas Cornu, Antonin Del Fabbro). Special thanks to Olivier_d who tested again and again my additions and modifications as well as his proposals for improvements. -->
 	<!--Coded by Olivier(Olivier_d), Christophe(cricri) and Louis(Hades34) -->
 	<renderingProperty attr="roadStyle" category="ui_hidden" type="string" />
 	<renderingProperty attr="transportStops" category="ui_hidden" type="string" />
